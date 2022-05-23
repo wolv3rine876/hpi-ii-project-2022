@@ -1,0 +1,22 @@
+syntax = "proto3";
+
+package bakdata.trade.v1;
+
+message Trade {
+  string id = 1;
+  uint32 bafin_id = 2;
+  string issuer = 3;
+  string isin = 4;
+  string reportable_person = 5;
+  string position = 6;
+  string asset_type = 7;
+  string trade_type = 8;
+  double avg_price = 9;
+  string avg_price_currency = 10;
+  double aggregate_volume = 11;
+  string aggregate_volume_currency = 12;
+  string date_of_notification = 13;
+  string date_of_trade = 14;
+  string place_of_trade = 15;
+  string date_of_activation = 16;
+}

@@ -1,5 +1,5 @@
 {
-  "name": "elasticsearch-sink",
+  "name": "elasticsearch-sink-corporates",
   "config": {
     "connector.class": "io.confluent.connect.elasticsearch.ElasticsearchSinkConnector",
     "topics": "corporate-events",
