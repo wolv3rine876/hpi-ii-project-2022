@@ -11,11 +11,9 @@ logging.basicConfig(
 )
 log = logging.getLogger(__name__)
 
-
 @click.command()
 @click.option("-i", "--issuer", "issuer", type=str, help="The issuer's first letter to start with (e.g. 'B')")
 def run(issuer: str):
-    log.warn("this is a warning")
     if issuer == "" or issuer is None:
         issuer = "A"
     elif not issuer in constants.ISSUERS:

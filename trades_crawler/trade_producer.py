@@ -11,7 +11,6 @@ from trades_crawler.constants import SCHEMA_REGISTRY_URL, BOOTSTRAP_SERVER, TOPI
 
 log = logging.getLogger(__name__)
 
-
 class TradeProducer:
     def __init__(self):
         schema_registry_conf = {"url": SCHEMA_REGISTRY_URL}
@@ -33,7 +32,6 @@ class TradeProducer:
         self.producer.produce(
             topic=TOPIC, partition=-1, key=str(trade.id), value=trade, on_delivery=self.delivery_report
         )
-
         # It is a naive approach to flush after each produce this can be optimised
         self.producer.poll()
 
