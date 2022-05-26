@@ -123,6 +123,10 @@ Options:
   --help             Show this message and exit.
 ```
 
+### Architecture
+
+The Architecture of the Trades crawler is the same as the RB Crawler excluding the schema. Thus, it is composed of a extractor that queries our source and a producer that communicates with Kafka. The Schema can be found in proto/bakdata/trade/v1/trade.proto.
+
 ## Query data
 
 ### Kowl
