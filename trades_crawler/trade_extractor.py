@@ -2,11 +2,12 @@ import logging
 from time import sleep
 from numpy import NaN
 import pandas as pd
+import hashlib
 from datetime import datetime
 
 from trades_crawler import constants
 from trades_crawler.trade_producer import TradeProducer
-from build.gen.bakdata.trade.v1.trade_pb2 import Trade
+from build.gen.bakdata.trade.v1.trade_pb2 import Trade, Person
 
 log = logging.getLogger(__name__)
 
@@ -25,10 +26,16 @@ class TradeExtractor:
                 df = df.fillna("")
                 for _, row in df.iterrows():
                     trade = Trade()
+                    # extract
+                    person = self.get_person(row["Meldepflichtiger"])
+                    if person is not None:
+                        trade.person.title = person.title
+                        trade.person.firstname = person.firstname
+                        trade.person.name = person.name
+                    trade.corporate = self.get_comporate(row["Meldepflichtiger"])
                     trade.bafin_id = row["BaFin-ID"]
                     trade.issuer = row["Emittent"]
                     trade.isin = row["ISIN"]
-                    trade.reportable_person = row["Meldepflichtiger"]
                     trade.position = row["Position / Status"]
                     trade.asset_type = row["Art des Instruments"]
                     trade.trade_type = row["Art des Geschäfts"]
@@ -42,7 +49,7 @@ class TradeExtractor:
                     trade.date_of_trade = self.date_to_ISO(row["Datum des Geschäfts"])
                     trade.place_of_trade = row["Ort des Geschäfts"]
                     trade.date_of_activation = self.datetime_to_ISO(row["Datum der Aktivierung"])
-                    trade.id = f"{trade.date_of_trade}_{trade.bafin_id}_{self.normalize(trade.reportable_person)}"
+                    trade.id = self.get_id(trade)
                     self.producer.produce_to_topic(trade)
                     log.debug(trade)                    
             except Exception as ex:
@@ -69,3 +76,29 @@ class TradeExtractor:
     """ Removes special characters from a string"""
     def normalize(self, s:str):
         return ''.join(e for e in s if e.isalnum())
+
+    def get_person(self, name:str):
+        # Not a name -> probably a company
+        if not ", " in name:
+            return None
+        person = Person()
+        split = name.split(", ")
+        if len(split) < 2:
+            log.warning(f'invalid name schema: "{name}"')
+            return ""
+        person.name = split[0]
+        split = split[1].split(" ")
+        person.title =  " ".join([s for s in split if '.' in s])
+        person.firstname = " ".join([s for s in split if not "." in s])
+        return person
+    
+    def get_comporate(self, name:str):
+        # Not a corporate -> probably a company
+        if ", " in name:
+            return ""
+        return name
+
+    def get_id(self, trade):
+        if not trade.corporate == "":
+            return hashlib.md5(self.normalize(trade.corporate).encode('utf-8')).hexdigest()
+        return hashlib.md5(self.normalize(trade.person.title + trade.person.firstname + trade.person.name).encode('utf-8')).hexdigest()
