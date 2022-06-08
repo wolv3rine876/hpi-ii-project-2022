@@ -1,10 +1,10 @@
 import logging
 from time import sleep
-
+import re
 import requests
 from parsel import Selector
 
-from build.gen.bakdata.corporate.v1.corporate_pb2 import Corporate, Status
+from build.gen.bakdata.corporate.v1.corporate_pb2 import Corporate, Status, Person
 from rb_producer import RbProducer
 
 log = logging.getLogger(__name__)
@@ -36,6 +36,14 @@ class RbExtractor:
                 self.handle_events(corporate, event_type, raw_text)
                 self.rb_id = self.rb_id + 1
                 log.debug(corporate)
+
+                person = Person()
+                m = re.search("([\w -]+), ([\w -]+), ?([\w.\/ -]+), \*(\d{2}.*\d{2}.*\d{4})([\w.\/ -]+)?", corporate.information)
+                person.lastname = m[1].strip()
+                person.firstname = m[2]
+                person.placeofbirth = m[3]
+                person.birthday = m[4]
+
             except Exception as ex:
                 log.error(f"Skipping {self.rb_id} in state {self.state}")
                 log.error(f"Cause: {ex}")
