@@ -6,8 +6,8 @@ from confluent_kafka.schema_registry.protobuf import ProtobufSerializer
 from confluent_kafka.serialization import StringSerializer
 
 from build.gen.bakdata.trade.v1 import trade_pb2
-from build.gen.bakdata.trade.v1.trade_pb2 import Trade
-from trades_crawler.constants import SCHEMA_REGISTRY_URL, BOOTSTRAP_SERVER, TOPIC
+from build.gen.bakdata.trade.v1.trade_pb2 import Trade, Person, Corporation, Company
+from trades_crawler.constants import SCHEMA_REGISTRY_URL, BOOTSTRAP_SERVER, TRADE_TOPIC, PERSON_TOPIC, CORPORATIONS_TOPIC, COMPANIES_TOPIC
 
 log = logging.getLogger(__name__)
 
@@ -28,12 +28,33 @@ class TradeProducer:
 
         self.producer = SerializingProducer(producer_conf)
 
-    def produce_to_topic(self, trade: Trade):
+    def produce_trade(self, trade: Trade):
         self.producer.produce(
-            topic=TOPIC, partition=-1, key=str(trade.id), value=trade, on_delivery=self.delivery_report
+            topic=TRADE_TOPIC, partition=-1, key=str(trade.id), value=trade, on_delivery=self.delivery_report
         )
         # It is a naive approach to flush after each produce this can be optimised
         self.producer.poll()
+    
+    def produce_person(self, person: Person):
+        self.producer.produce(
+            topic=PERSON_TOPIC, partition=-1, key=str(person.id), value=person, on_delivery=self.delivery_report
+        )
+        # It is a naive approach to flush after each produce this can be optimised
+        self.producer.poll()
+
+    def produce_corporation(self, corporation: Corporation):
+        self.producer.produce(
+            topic=CORPORATIONS_TOPIC, partition=-1, key=str(corporation.id), value=corporation, on_delivery=self.delivery_report
+        )
+        # It is a naive approach to flush after each produce this can be optimised
+        self.producer.poll()
+
+    def produce_company(self, company: Company):
+        self.producer.produce(
+            topic=COMPANIES_TOPIC, partition=-1, key=str(company.id), value=company, on_delivery=self.delivery_report
+        )
+        # It is a naive approach to flush after each produce this can be optimised
+        self.producer.poll()    
 
     @staticmethod
     def delivery_report(err, msg):

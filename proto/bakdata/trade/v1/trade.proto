@@ -4,26 +4,37 @@ package bakdata.trade.v1;
 
 message Trade {
   string id = 1;
-  uint32 bafin_id = 2;
-  string issuer = 3;
-  string isin = 4;
-  Person person = 5;
-  string corporate = 6;
-  string position = 7;
-  string asset_type = 8;
-  string trade_type = 9;
-  double avg_price = 10;
-  string avg_price_currency = 11;
-  double aggregate_volume = 12;
-  string aggregate_volume_currency = 13;
-  string date_of_notification = 14;
-  string date_of_trade = 15;
-  string place_of_trade = 16;
-  string date_of_activation = 17;
+  string personid = 2;
+  string issuerid = 3;
+  string companyid = 4;
+  string position = 5;
+  string asset_type = 6;
+  string trade_type = 7;
+  double avg_price = 8;
+  string avg_price_currency = 9;
+  double aggregate_volume = 10;
+  string aggregate_volume_currency = 11;
+  string date_of_notification = 12;
+  string date_of_trade = 13;
+  string place_of_trade = 14;
+  string date_of_activation = 15;
 }
 
 message Person {
-  string name = 1;
-  string firstname = 2;
-  string title = 3;
+  string id = 1;
+  string name = 2;
+  string firstname = 3;
+  string title = 4;
+}
+
+message Corporation {
+  string id = 1;
+  uint32 bafin_id = 2;
+  string name = 3;
+  string isin = 4;
+}
+
+message Company {
+  string id = 1;
+  string name = 2;
 }
