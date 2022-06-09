@@ -2,7 +2,7 @@ syntax = "proto3";
 
 package bakdata.corporate.v1;
 
-message Corporate {
+message Announcement {
   string id = 1;
   uint32 rb_id = 2;
   string state = 3;
@@ -11,6 +11,8 @@ message Corporate {
   string event_type = 6;
   Status status = 7;
   string information = 8;
+  string corporate_id = 9;
+  string person_id = 10;
 }
 
 enum Status {
@@ -19,9 +21,15 @@ enum Status {
   STATUS_ACTIVE = 2;
 }
 
+message Corporate {
+  string id = 1;
+  string name = 2;
+}
+
 message Person {
-  string firstname = 1;
-  string lastname = 2;
-  string placeofbirth = 3;
-  string birthday = 4;
+  string id = 1;
+  string firstname = 2;
+  string lastname = 3;
+  string placeofbirth = 4;
+  string birthday = 5;
 }
