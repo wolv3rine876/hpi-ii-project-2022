@@ -5,16 +5,24 @@ import pandas as pd
 from datetime import datetime
 
 from trades_crawler import constants
-from trades_crawler.trade_producer import TradeProducer
-from build.gen.bakdata.trade.v1.trade_pb2 import Trade, Person, Corporation, Company
+#from trades_crawler.trade_producer import TradeProducer
+from constants import TRADE_TOPIC, PERSON_TOPIC, CORPORATIONS_TOPIC, COMPANIES_TOPIC
+from build.gen.bakdata.trade.v1.trade_pb2 import Trade
+from build.gen.bakdata.trade.v1.person_pb2 import Person
+from build.gen.bakdata.trade.v1.corporation_pb2 import Corporation
+from build.gen.bakdata.trade.v1.company_pb2 import Company
 from util import id_generator
+from util.kafka_producer import KafkaProducer
 
 log = logging.getLogger(__name__)
 
 class TradeExtractor:
     def __init__(self, start_issuer: str):
         self.start_idx = constants.ISSUERS.index(start_issuer)
-        self.producer = TradeProducer()
+        self.trade_producer = KafkaProducer(Trade, TRADE_TOPIC)
+        self.person_producer = KafkaProducer(Person, PERSON_TOPIC)
+        self.corporation_producer = KafkaProducer(Corporation, CORPORATIONS_TOPIC)
+        self.company_producer = KafkaProducer(Company, COMPANIES_TOPIC)
 
     def extract(self):
         for letter in constants.ISSUERS[self.start_idx:]:
@@ -54,13 +62,13 @@ class TradeExtractor:
                     trade.place_of_trade = row["Ort des Geschäfts"]
                     trade.date_of_activation = self.datetime_to_ISO(row["Datum der Aktivierung"])
                     trade.id = id_generator.get_trade_id(trade.date_of_trade, trade.issuerid, trade.personid)
-                    self.producer.produce_trade(trade)
-                    self.producer.produce_corporation(corporation)
+                    # produce
+                    self.trade_producer.produce(trade, trade.id)
+                    self.corporation_producer.produce(corporation, corporation.id)
                     if person is not None:
-                        self.producer.produce_person(person)
+                        self.person_producer.produce(person, person.id)
                     if company is not None:
-                        self.producer.produce_company(company)
-                    log.debug(trade)                    
+                        self.company_producer.produce(company, company.id)                    
             except Exception as ex:
                 log.error(f"Skipping issuers starting with letter {letter}")
                 log.error(f"Cause: {ex.with_traceback()}")
@@ -92,9 +100,6 @@ class TradeExtractor:
             return None
         person = Person()
         split = name.split(", ")
-        if len(split) < 2:
-            log.warning(f'invalid name schema: "{name}"')
-            return ""
         person.name = split[0]
         split = split[1].split(" ")
         person.title =  " ".join([s for s in split if '.' in s])
@@ -107,5 +112,6 @@ class TradeExtractor:
         if ", " in name:
             return None
         company = Company()
-        company.id = id_generator.get_corporate_id(name)
+        company.id = id_generator.get_corporate_id("trade", name)
         company.name = name
+        return company

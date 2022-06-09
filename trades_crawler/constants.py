@@ -1,5 +1,3 @@
-BOOTSTRAP_SERVER: str = "localhost:29092"
-SCHEMA_REGISTRY_URL: str = "http://localhost:8081"
 TRADE_TOPIC: str = "trade-events"
 PERSON_TOPIC: str = "trade-persons"
 CORPORATIONS_TOPIC: str = "trade-corporations"

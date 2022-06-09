@@ -19,7 +19,11 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='bakdata.trade.v1',
   syntax='proto3',
   serialized_options=None,
+<<<<<<< HEAD
   serialized_pb=_b('\n\x1c\x62\x61kdata/trade/v1/trade.proto\x12\x10\x62\x61kdata.trade.v1\"\xd9\x02\n\x05Trade\x12\n\n\x02id\x18\x01 \x01(\t\x12\x10\n\x08personid\x18\x02 \x01(\t\x12\x10\n\x08issuerid\x18\x03 \x01(\t\x12\x11\n\tcompanyid\x18\x04 \x01(\t\x12\x10\n\x08position\x18\x05 \x01(\t\x12\x12\n\nasset_type\x18\x06 \x01(\t\x12\x12\n\ntrade_type\x18\x07 \x01(\t\x12\x11\n\tavg_price\x18\x08 \x01(\x01\x12\x1a\n\x12\x61vg_price_currency\x18\t \x01(\t\x12\x18\n\x10\x61ggregate_volume\x18\n \x01(\x01\x12!\n\x19\x61ggregate_volume_currency\x18\x0b \x01(\t\x12\x1c\n\x14\x64\x61te_of_notification\x18\x0c \x01(\t\x12\x15\n\rdate_of_trade\x18\r \x01(\t\x12\x16\n\x0eplace_of_trade\x18\x0e \x01(\t\x12\x1a\n\x12\x64\x61te_of_activation\x18\x0f \x01(\t\"V\n\x06Person\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\t\x12\x11\n\tfirstname\x18\x03 \x01(\t\x12\r\n\x05title\x18\x04 \x01(\t\x12\x10\n\x08jobtitle\x18\x05 \x01(\t\"G\n\x0b\x43orporation\x12\n\n\x02id\x18\x01 \x01(\t\x12\x10\n\x08\x62\x61\x66in_id\x18\x02 \x01(\r\x12\x0c\n\x04name\x18\x03 \x01(\t\x12\x0c\n\x04isin\x18\x04 \x01(\t\"#\n\x07\x43ompany\x12\n\n\x02id\x18\x01 \x01(\t\x12\x0c\n\x04name\x18\x02 \x01(\tb\x06proto3')
+=======
+  serialized_pb=_b('\n\x1c\x62\x61kdata/trade/v1/trade.proto\x12\x10\x62\x61kdata.trade.v1\"\xd9\x02\n\x05Trade\x12\n\n\x02id\x18\x01 \x01(\t\x12\x10\n\x08personid\x18\x02 \x01(\t\x12\x10\n\x08issuerid\x18\x03 \x01(\t\x12\x11\n\tcompanyid\x18\x04 \x01(\t\x12\x10\n\x08position\x18\x05 \x01(\t\x12\x12\n\nasset_type\x18\x06 \x01(\t\x12\x12\n\ntrade_type\x18\x07 \x01(\t\x12\x11\n\tavg_price\x18\x08 \x01(\x01\x12\x1a\n\x12\x61vg_price_currency\x18\t \x01(\t\x12\x18\n\x10\x61ggregate_volume\x18\n \x01(\x01\x12!\n\x19\x61ggregate_volume_currency\x18\x0b \x01(\t\x12\x1c\n\x14\x64\x61te_of_notification\x18\x0c \x01(\t\x12\x15\n\rdate_of_trade\x18\r \x01(\t\x12\x16\n\x0eplace_of_trade\x18\x0e \x01(\t\x12\x1a\n\x12\x64\x61te_of_activation\x18\x0f \x01(\tb\x06proto3')
+>>>>>>> e92c3762998bbe7957ce764d678b4f3fe875da67
 )
 
 
@@ -153,6 +157,7 @@ _TRADE = _descriptor.Descriptor(
   serialized_end=396,
 )
 
+<<<<<<< HEAD
 
 _PERSON = _descriptor.Descriptor(
   name='Person',
@@ -302,10 +307,9 @@ _COMPANY = _descriptor.Descriptor(
   serialized_end=594,
 )
 
+=======
+>>>>>>> e92c3762998bbe7957ce764d678b4f3fe875da67
 DESCRIPTOR.message_types_by_name['Trade'] = _TRADE
-DESCRIPTOR.message_types_by_name['Person'] = _PERSON
-DESCRIPTOR.message_types_by_name['Corporation'] = _CORPORATION
-DESCRIPTOR.message_types_by_name['Company'] = _COMPANY
 _sym_db.RegisterFileDescriptor(DESCRIPTOR)
 
 Trade = _reflection.GeneratedProtocolMessageType('Trade', (_message.Message,), dict(
@@ -314,27 +318,6 @@ Trade = _reflection.GeneratedProtocolMessageType('Trade', (_message.Message,), d
   # @@protoc_insertion_point(class_scope:bakdata.trade.v1.Trade)
   ))
 _sym_db.RegisterMessage(Trade)
-
-Person = _reflection.GeneratedProtocolMessageType('Person', (_message.Message,), dict(
-  DESCRIPTOR = _PERSON,
-  __module__ = 'bakdata.trade.v1.trade_pb2'
-  # @@protoc_insertion_point(class_scope:bakdata.trade.v1.Person)
-  ))
-_sym_db.RegisterMessage(Person)
-
-Corporation = _reflection.GeneratedProtocolMessageType('Corporation', (_message.Message,), dict(
-  DESCRIPTOR = _CORPORATION,
-  __module__ = 'bakdata.trade.v1.trade_pb2'
-  # @@protoc_insertion_point(class_scope:bakdata.trade.v1.Corporation)
-  ))
-_sym_db.RegisterMessage(Corporation)
-
-Company = _reflection.GeneratedProtocolMessageType('Company', (_message.Message,), dict(
-  DESCRIPTOR = _COMPANY,
-  __module__ = 'bakdata.trade.v1.trade_pb2'
-  # @@protoc_insertion_point(class_scope:bakdata.trade.v1.Company)
-  ))
-_sym_db.RegisterMessage(Company)
 
 
 # @@protoc_insertion_point(module_scope)

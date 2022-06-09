@@ -14,47 +14,79 @@ log = logging.getLogger(__name__)
 class TradeProducer:
     def __init__(self):
         schema_registry_conf = {"url": SCHEMA_REGISTRY_URL}
-        schema_registry_client = SchemaRegistryClient(schema_registry_conf)
+        trades_schema_registry_client = SchemaRegistryClient(schema_registry_conf)
+        persons_schema_registry_client = SchemaRegistryClient(schema_registry_conf)
+        corporations_schema_registry_client = SchemaRegistryClient(schema_registry_conf)
+        companies_schema_registry_client = SchemaRegistryClient(schema_registry_conf)
 
-        protobuf_serializer = ProtobufSerializer(
-            trade_pb2.Trade, schema_registry_client, {"use.deprecated.format": True}
+        # trades
+        trades_serializer = ProtobufSerializer(
+            trade_pb2.Trade, trades_schema_registry_client, {"use.deprecated.format": True}
         )
-
-        producer_conf = {
+        trade_producer_conf = {
             "bootstrap.servers": BOOTSTRAP_SERVER,
             "key.serializer": StringSerializer("utf_8"),
-            "value.serializer": protobuf_serializer,
+            "value.serializer": trades_serializer,
         }
-
-        self.producer = SerializingProducer(producer_conf)
+        self.trade_producer = SerializingProducer(trade_producer_conf)
+        # corporations
+        corporations_serializer = ProtobufSerializer(
+            trade_pb2.Corporation, corporations_schema_registry_client, {"use.deprecated.format": True}
+        )
+        corporation_producer_conf = {
+            "bootstrap.servers": BOOTSTRAP_SERVER,
+            "key.serializer": StringSerializer("utf_8"),
+            "value.serializer": corporations_serializer,
+        }
+        self.corporation_producer = SerializingProducer(corporation_producer_conf)
+        # person
+        person_serializer = ProtobufSerializer(
+            trade_pb2.Person, persons_schema_registry_client, {"use.deprecated.format": True}
+        )
+        person_producer_conf = {
+            "bootstrap.servers": BOOTSTRAP_SERVER,
+            "key.serializer": StringSerializer("utf_8"),
+            "value.serializer": person_serializer,
+        }
+        self.person_producer = SerializingProducer(person_producer_conf)
+        # company
+        company_serializer = ProtobufSerializer(
+            trade_pb2.Company, companies_schema_registry_client, {"use.deprecated.format": True}
+        )
+        company_producer_conf = {
+            "bootstrap.servers": BOOTSTRAP_SERVER,
+            "key.serializer": StringSerializer("utf_8"),
+            "value.serializer": company_serializer,
+        }
+        self.company_producer = SerializingProducer(company_producer_conf)
 
     def produce_trade(self, trade: Trade):
-        self.producer.produce(
+        self.trade_producer.produce(
             topic=TRADE_TOPIC, partition=-1, key=str(trade.id), value=trade, on_delivery=self.delivery_report
         )
         # It is a naive approach to flush after each produce this can be optimised
-        self.producer.poll()
+        self.trade_producer.poll()
     
     def produce_person(self, person: Person):
-        self.producer.produce(
+        self.person_producer.produce(
             topic=PERSON_TOPIC, partition=-1, key=str(person.id), value=person, on_delivery=self.delivery_report
         )
         # It is a naive approach to flush after each produce this can be optimised
-        self.producer.poll()
+        self.person_producer.poll()
 
     def produce_corporation(self, corporation: Corporation):
-        self.producer.produce(
+        self.corporation_producer.produce(
             topic=CORPORATIONS_TOPIC, partition=-1, key=str(corporation.id), value=corporation, on_delivery=self.delivery_report
         )
         # It is a naive approach to flush after each produce this can be optimised
-        self.producer.poll()
+        self.corporation_producer.poll()
 
     def produce_company(self, company: Company):
-        self.producer.produce(
+        self.company_producer.produce(
             topic=COMPANIES_TOPIC, partition=-1, key=str(company.id), value=company, on_delivery=self.delivery_report
         )
         # It is a naive approach to flush after each produce this can be optimised
-        self.producer.poll()    
+        self.company_producer.poll()    
 
     @staticmethod
     def delivery_report(err, msg):
