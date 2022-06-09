@@ -1,11 +1,11 @@
 {
-    "name": "elasticsearch-sink-trades-persons",
+    "name": "elasticsearch-sink-trades-corporations",
     "config": {
       "connector.class": "io.confluent.connect.elasticsearch.ElasticsearchSinkConnector",
-      "topics": "trade-persons",
+      "topics": "trade-corporations",
       "input.data.format": "PROTOBUF",
       "connection.url": "http://elasticsearch:9200",
-      "type.name": "trade-persons",
+      "type.name": "trade-corporations",
       "key.ignore": "false",
       "schema.ignore": "true",
       "tasks.max": "1"
