@@ -19,22 +19,3 @@ message Trade {
   string place_of_trade = 14;
   string date_of_activation = 15;
 }
-
-message Person {
-  string id = 1;
-  string name = 2;
-  string firstname = 3;
-  string title = 4;
-}
-
-message Corporation {
-  string id = 1;
-  uint32 bafin_id = 2;
-  string name = 3;
-  string isin = 4;
-}
-
-message Company {
-  string id = 1;
-  string name = 2;
-}
