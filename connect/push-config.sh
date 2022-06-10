@@ -17,9 +17,9 @@ data2=$(cat $BASE_CONFIG2 | jq -s '.[0]')
 data3=$(cat $BASE_CONFIG3 | jq -s '.[0]')
 data4=$(cat $BASE_CONFIG4 | jq -s '.[0]')
 data5=$(cat $BASE_CONFIG5 | jq -s '.[0]')
-data6=$(cat $BASE_CONFIG5 | jq -s '.[0]')
-data7=$(cat $BASE_CONFIG5 | jq -s '.[0]')
-data8=$(cat $BASE_CONFIG5 | jq -s '.[0]')
+data6=$(cat $BASE_CONFIG6 | jq -s '.[0]')
+data7=$(cat $BASE_CONFIG7 | jq -s '.[0]')
+data8=$(cat $BASE_CONFIG8 | jq -s '.[0]')
 
 curl -X POST $KAFKA_CONNECT_API --data "$data" -H "content-type:application/json"
 curl -X POST $KAFKA_CONNECT_API --data "$data2" -H "content-type:application/json"
