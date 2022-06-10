@@ -5,8 +5,9 @@ from confluent_kafka.schema_registry import SchemaRegistryClient
 from confluent_kafka.schema_registry.protobuf import ProtobufSerializer
 from confluent_kafka.serialization import StringSerializer
 
-from build.gen.bakdata.corporate.v1 import corporate_pb2
-from build.gen.bakdata.corporate.v1.corporate_pb2 import Announcement, Corporate, Person
+from build.gen.bakdata.corporate.v1.corporate_pb2 import Corporate
+from build.gen.bakdata.corporate.v1.person_pb2 import Person
+from build.gen.bakdata.corporate.v1.announcement_pb2 import Announcement, Status
 from rb_crawler.constant import SCHEMA_REGISTRY_URL, BOOTSTRAP_SERVER, RB_PERSONS, RB_CORPORATES, RB_ANNOUNCEMENTS
 
 log = logging.getLogger(__name__)
@@ -19,7 +20,7 @@ class RbProducer:
 
         # Announcements
         protobuf_announcement_serializer = ProtobufSerializer(
-            corporate_pb2.Announcement, schema_registry_client, {"use.deprecated.format": True}
+            Announcement, schema_registry_client, {"use.deprecated.format": True}
         )
         producer_announcements_conf = {
             "bootstrap.servers": BOOTSTRAP_SERVER,
@@ -30,7 +31,7 @@ class RbProducer:
 
         # Persons
         protobuf_persons_serializer = ProtobufSerializer(
-            corporate_pb2.Person, schema_registry_client, {"use.deprecated.format": True}
+            Person, schema_registry_client, {"use.deprecated.format": True}
         )
         producer_persons_conf = {
             "bootstrap.servers": BOOTSTRAP_SERVER,
@@ -41,7 +42,7 @@ class RbProducer:
 
         # Corporates
         protobuf_corporates_serializer = ProtobufSerializer(
-            corporate_pb2.Corporate, schema_registry_client, {"use.deprecated.format": True}
+            Corporate, schema_registry_client, {"use.deprecated.format": True}
         )
         producer_corporates_conf = {
             "bootstrap.servers": BOOTSTRAP_SERVER,

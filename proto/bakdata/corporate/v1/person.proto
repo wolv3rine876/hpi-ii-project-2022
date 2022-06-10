@@ -1,0 +1,12 @@
+syntax = "proto3";
+
+package bakdata.corporate.v1;
+
+message Person {
+  string id = 1;
+  string firstname = 2;
+  string lastname = 3;
+  string placeofbirth = 4;
+  string birthday = 5;
+  string jobtitle = 6;
+}

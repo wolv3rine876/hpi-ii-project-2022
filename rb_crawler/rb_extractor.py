@@ -4,7 +4,9 @@ import re
 import requests
 from parsel import Selector
 
-from build.gen.bakdata.corporate.v1.corporate_pb2 import Announcement, Corporate, Status, Person
+from build.gen.bakdata.corporate.v1.corporate_pb2 import Corporate
+from build.gen.bakdata.corporate.v1.person_pb2 import Person
+from build.gen.bakdata.corporate.v1.announcement_pb2 import Announcement, Status
 from rb_producer import RbProducer
 from util.id_generator import get_person_id, get_corporate_id, get_announcement_id
 
@@ -43,18 +45,19 @@ class RbExtractor:
                 person = Person()
                 m = re.findall(" ([a-zA-Z\u0080-\uFFFF -]+), ([a-zA-Z\u0080-\uFFFF -]+), ([a-zA-Z\u0080-\uFFFF.\/ -]+), \*(\d{2}.\d{2}.\d{4}), ([a-zA-Z\u0080-\uFFFF,\/ -]+)", announcement.information)
                 for i in range(0, len(m)):
-                    person.lastname = m[i][1]
-                    person.firstname = m[i][2]
-                    person.placeofbirth = m[i][3]
-                    person.birthday = m[i][4]
-                    person.jobtitle = m[i][5]
+                    person.lastname = m[i][0]
+                    person.firstname = m[i][1]
+                    person.placeofbirth = m[i][2]
+                    person.birthday = m[i][3]
+                    person.jobtitle = m[i][4]
                     person.id = get_person_id("rb", person.firstname, person.lastname)
                     self.producer.produce_person_to_topic(person=person)
 
                 corporate = Corporate()
                 corporate.name = announcement.information.split(",")[0]
-                person.id = get_corporate_id("rb", corporate.name)
-                self.producer.produce_corporate_to_topic(corporate=corporate)
+                corporate.id = get_corporate_id("rb", corporate.name)
+                if corporate.name != "":
+                    self.producer.produce_corporate_to_topic(corporate=corporate)
 
 
             except Exception as ex:
