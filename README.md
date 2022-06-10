@@ -11,6 +11,9 @@ can find the documentation for setting up the project.
   use [this guide](https://www.geeksforgeeks.org/how-to-install-protocol-buffers-on-windows/)
 - Install [jq](https://stedolan.github.io/jq/download/)
 
+## Architecture
+![](architecture.png)
+
 ### RB Website
 
 The [Registerbekanntmachung website](https://www.handelsregisterbekanntmachungen.de/index.php?aktion=suche) contains
