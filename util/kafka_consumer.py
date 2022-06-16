@@ -12,8 +12,6 @@ class KafkaConsumer:
     def __init__(self, desirialization_schema, topic, consumer_id):
         self.stop = False
         self.topic = topic
-        #schema_registry_conf = {"url": SCHEMA_REGISTRY_URL}
-        #schema_registry_client = SchemaRegistryClient(schema_registry_conf)
         deserializer = ProtobufDeserializer(
             desirialization_schema, {"use.deprecated.format": True}
         )
