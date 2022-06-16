@@ -20,6 +20,7 @@ def get_announcement_id(rb_id:int, state: str):
 
 """ Removes special characters from a string"""
 def normalize(s:str):
+    s = s.lower()
     return ''.join(e for e in s if e.isalnum())
 
 """ Hashes a string and returns it """
