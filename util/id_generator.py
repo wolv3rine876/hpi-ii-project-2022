@@ -1,13 +1,13 @@
 import hashlib
 
 """ Generates an id by concatenating, normalizing and hasing """
-def get_person_id(prefix:str, firstname:str, lastname:str):
-    normalized = normalize(prefix + firstname + lastname)
+def get_person_id(firstname:str, lastname:str):
+    normalized = normalize(firstname + lastname)
     return hash(normalized)
 
 """ Generates an id by concatenating, normalizing and hasing """
-def get_corporate_id(prefix:str, corporation:str):
-    normalized = normalize(prefix + corporation)
+def get_corporate_id(corporation:str):
+    normalized = normalize(corporation)
     return hash(normalized)
 
 def get_trade_id(date:str, issuerid: str, personid: str):

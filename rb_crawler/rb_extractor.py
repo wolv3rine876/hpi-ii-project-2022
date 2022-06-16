@@ -50,12 +50,12 @@ class RbExtractor:
                     person.placeofbirth = m[i][2]
                     person.birthday = m[i][3]
                     person.jobtitle = m[i][4]
-                    person.id = get_person_id("rb", person.firstname, person.lastname)
+                    person.id = get_person_id(person.firstname, person.lastname)
                     self.producer.produce_person_to_topic(person=person)
 
                 corporate = Corporate()
                 corporate.name = announcement.information.split(",")[0]
-                corporate.id = get_corporate_id("rb", corporate.name)
+                corporate.id = get_corporate_id(corporate.name)
                 if corporate.name != "":
                     self.producer.produce_corporate_to_topic(corporate=corporate)
 

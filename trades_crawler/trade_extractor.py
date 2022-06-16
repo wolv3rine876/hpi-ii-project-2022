@@ -44,7 +44,7 @@ class TradeExtractor:
                         trade.companyid = company.id
                     corporation = Corporation()
                     corporation.name = row["Emittent"]
-                    corporation.id = id_generator.get_corporate_id("trade", corporation.name)
+                    corporation.id = id_generator.get_corporate_id(corporation.name)
                     corporation.bafin_id = row["BaFin-ID"]
                     corporation.isin = row["ISIN"]
                     trade.issuerid = corporation.id
@@ -104,7 +104,7 @@ class TradeExtractor:
         split = split[1].split(" ")
         person.title =  " ".join([s for s in split if '.' in s])
         person.firstname = " ".join([s for s in split if not "." in s])
-        person.id = id_generator.get_person_id("trade", person.firstname, person.name)
+        person.id = id_generator.get_person_id(person.firstname, person.name)
         return person
     
     def get_company(self, name:str):
@@ -112,6 +112,6 @@ class TradeExtractor:
         if ", " in name:
             return None
         company = Company()
-        company.id = id_generator.get_corporate_id("trade", name)
+        company.id = id_generator.get_corporate_id(name)
         company.name = name
         return company
