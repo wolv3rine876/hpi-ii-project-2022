@@ -31,7 +31,6 @@ class KafkaConsumer:
             Keyword arguments:
             callback -- a function that is called for each message. It should have one parameter of the message's type (see constructor)
         """
-        print("Dome")
         log.info(f'Consuming topic {self.topic}')
         while not self.stop:
             try:
