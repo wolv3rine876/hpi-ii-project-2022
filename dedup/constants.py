@@ -1,3 +1,6 @@
 TRADES_PERSONS_TOPIC: str = "trade-persons"
 RB_PERSONS_TOPIC: str = "rb-persons"
 DEDUP_PERSONS_TOPIC: str = "dedup-persons"
+TRADES_CORPORATES_TOPIC: str = "trade-corporations"
+RB_CORPORATES_TOPIC: str = "rb-corporates"
+DEDUP_CORPORATES_TOPIC: str = "dedup-corporates"

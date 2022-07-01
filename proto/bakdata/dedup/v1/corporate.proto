@@ -1,0 +1,8 @@
+syntax = "proto3";
+
+package bakdata.dedup.v1;
+
+message Corporate {
+  string id = 1;
+  string dedup_id = 2;
+}
