@@ -1,4 +1,5 @@
 import logging
+from threading import Thread, Event
 
 from util.constants import BOOTSTRAP_SERVER
 
@@ -31,10 +32,15 @@ class KafkaConsumer:
             Keyword arguments:
             callback -- a function that is called for each message. It should have one parameter of the message's type (see constructor)
         """
-        log.info(f'Consuming topic {self.topic}')
-        while not self.stop:
+        self._kill_event = Event()
+        self._thread = Thread(target=KafkaConsumer._consume_in_loop, args=(self.topic, self.consumer, callback, self._kill_event))
+        self._thread.start()
+
+    def _consume_in_loop(topic, consumer, callback, kill_event):
+        log.info(f'Starting consumer thread for topic {topic}')
+        while not kill_event.is_set():
             try:
-                msg = self.consumer.poll(1.0)
+                msg = consumer.poll(1.0)
                 if msg is None:
                     log.debug("Recieved empty message. This might be due to a timeout")
                     continue
@@ -45,9 +51,9 @@ class KafkaConsumer:
                 callback(value)
             except Exception as e:
                 log.error(e)
-        self.consumer.close()
+        consumer.close()
 
     def terminate(self):
         """ Stops the consumer """
-        log.info(f'Stopping consumer for topic {self.topic}')
-        self.stop = True
+        log.info(f'Stopping consumer thread for topic {self.topic}')
+        self._kill_event.set()
