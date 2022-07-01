@@ -1,25 +1,32 @@
 from util.kafka_consumer import KafkaConsumer
 from util.kafka_producer import KafkaProducer
-from build.gen.bakdata.corporate.v1.person_pb2 import Person
+from build.gen.bakdata.corporate.v1.person_pb2 import Person as RbPerson
+from build.gen.bakdata.trade.v1.person_pb2 import Person as TradesPerson
 from bisect import bisect_left, insort_left
 from util.id_generator import normalize
 from pyjarowinkler import distance
 import click
 import logging
+import threading
 
 log = logging.getLogger(__name__)
-
+sem = threading.Semaphore()
 names = []
 
 @click.command()
-@click.option("--topic", help="Enter the topic you want to run the deduplication on.")
-def run(topic):
-    print("Finding duplicates in {} ...".format(topic))
-    consumer = KafkaConsumer(Person, topic, "Dedup Consumer")
-    consumer.consume(process_message)
+@click.option("--topic_type", help="Enter the topic you want to run the deduplication on.")
+def run(topic_type):
+    if topic_type == "persons":
+        print("Finding duplicates for trades-persons ...")
+        trades_persons_consumer = KafkaConsumer(TradesPerson, "trade-persons", "dedup_trades-person")
+        trades_persons_consumer.consume(process_trades_person)
+        print("Finding duplicates for rb-persons ...")
+        rb_persons_consumer = KafkaConsumer(RbPerson, "rb-persons", "dedup_rb-person")
+        rb_persons_consumer.consume(process_rb_person)
 
-def process_message(person: Person):
-    name = normalize(person.firstname + " " + person.lastname)
+def process_rb_person(rb_person: RbPerson):
+    name = normalize(rb_person.firstname + " " + rb_person.lastname)
+    sem.acquire()
     if len(names) == 0:
         insort_left(names, name)
     else:
@@ -28,10 +35,32 @@ def process_message(person: Person):
         for i in range(max(0, insertion_point - 2), min(len(names), insertion_point + 2)):
             if distance.get_jaro_distance(name, names[i], winkler=False) > 0.95:
                 found_duplicate = True
-                print("Found duplicate: {} - {} -- JW: {}".format(names[i], name, distance.get_jaro_distance(name, names[i], winkler=False)))                
+                # produce to topic with dedup_id = hash(names[i])
+                print("Found duplicate for person from rb-persons: {} - {} -> JW: {}".format(names[i], name, distance.get_jaro_distance(name, names[i], winkler=False)))
+                break               
         if found_duplicate == False:
             insort_left(names, name)
-            # to be done: produce to dedup topic
+            # produce to topic with dedup_id = hash(name)
+    sem.release()
+
+def process_trades_person(trades_person: TradesPerson):
+    name = normalize(trades_person.firstname + " " + trades_person.name)
+    sem.acquire()
+    if len(names) == 0:
+        insort_left(names, name)
+    else:
+        found_duplicate = False
+        insertion_point = bisect_left(names, name)
+        for i in range(max(0, insertion_point - 2), min(len(names), insertion_point + 2)):
+            if distance.get_jaro_distance(name, names[i], winkler=False) > 0.95:
+                found_duplicate = True
+                # produce to topic with dedup_id = hash(names[i])
+                print("Found duplicate for person from trades-persons: {} - {} -> JW: {}".format(names[i], name, distance.get_jaro_distance(name, names[i], winkler=False)))
+                break               
+        if found_duplicate == False:
+            insort_left(names, name)
+            # produce to topic with dedup_id = hash(name)
+    sem.release()
 
 if __name__ == "__main__":
     run()

@@ -46,7 +46,7 @@ to move the data from the `coporate-events` and `trade-events` topics into the E
 
 ## Setup
 
-This project uses [Poetry](https://python-poetry.org/) as a build tool.
+This project uses [ ](https://python-poetry.org/) as a build tool.
 To install all the dependencies, just run `poetry install`.
 
 This project uses Protobuf for serializing and deserializing objects. We provided a
