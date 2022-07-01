@@ -7,3 +7,4 @@ protoc --proto_path=proto --python_out=build/gen proto/bakdata/trade/v1/trade.pr
 protoc --proto_path=proto --python_out=build/gen proto/bakdata/trade/v1/person.proto
 protoc --proto_path=proto --python_out=build/gen proto/bakdata/trade/v1/corporation.proto
 protoc --proto_path=proto --python_out=build/gen proto/bakdata/trade/v1/company.proto
+protoc --proto_path=proto --python_out=build/gen proto/bakdata/dedup/v1/person.proto
