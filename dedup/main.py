@@ -18,10 +18,11 @@ names = []
 def run(topic_type):
     if topic_type == "persons":
         print("Finding duplicates for trades-persons ...")
-        trades_persons_consumer = KafkaConsumer(TradesPerson, "trade-persons", "dedup_trades-person")
+        trades_persons_consumer = KafkaConsumer(TradesPerson, "trade-persons", "dedup_trades-person2")
+        trades_persons_producer = KafkaProducer
         trades_persons_consumer.consume(process_trades_person)
         print("Finding duplicates for rb-persons ...")
-        rb_persons_consumer = KafkaConsumer(RbPerson, "rb-persons", "dedup_rb-person")
+        rb_persons_consumer = KafkaConsumer(RbPerson, "rb-persons", "dedup_rb-person2")
         rb_persons_consumer.consume(process_rb_person)
 
 def process_rb_person(rb_person: RbPerson):
@@ -31,12 +32,17 @@ def process_rb_person(rb_person: RbPerson):
         insort_left(names, name)
     else:
         found_duplicate = False
+        jaro_dist = 0
         insertion_point = bisect_left(names, name)
         for i in range(max(0, insertion_point - 2), min(len(names), insertion_point + 2)):
-            if distance.get_jaro_distance(name, names[i], winkler=False) > 0.95:
+            jaro_dist = distance.get_jaro_distance(name, names[i], winkler=False)
+            if jaro_dist > 0.95:
                 found_duplicate = True
                 # produce to topic with dedup_id = hash(names[i])
-                print("Found duplicate for person from rb-persons: {} - {} -> JW: {}".format(names[i], name, distance.get_jaro_distance(name, names[i], winkler=False)))
+                if jaro_dist == 1.0:
+                    print("Found exact duplicate for person from trades-persons: {} - {} -> JW: {}".format(names[i], name, jaro_dist))
+                else:
+                    print("[!] Found fuzzy duplicate for person from trades-persons: {} - {} -> JW: {}".format(names[i], name, jaro_dist))
                 break               
         if found_duplicate == False:
             insort_left(names, name)
@@ -50,12 +56,17 @@ def process_trades_person(trades_person: TradesPerson):
         insort_left(names, name)
     else:
         found_duplicate = False
+        jaro_dist = 0
         insertion_point = bisect_left(names, name)
         for i in range(max(0, insertion_point - 2), min(len(names), insertion_point + 2)):
-            if distance.get_jaro_distance(name, names[i], winkler=False) > 0.95:
+            jaro_dist = distance.get_jaro_distance(name, names[i], winkler=False)
+            if jaro_dist > 0.95:
                 found_duplicate = True
                 # produce to topic with dedup_id = hash(names[i])
-                print("Found duplicate for person from trades-persons: {} - {} -> JW: {}".format(names[i], name, distance.get_jaro_distance(name, names[i], winkler=False)))
+                if jaro_dist == 1.0:
+                    print("Found exact duplicate for person from trades-persons: {} - {} -> JW: {}".format(names[i], name, jaro_dist))
+                else:
+                    print("[!] Found fuzzy duplicate for person from trades-persons: {} - {} -> JW: {}".format(names[i], name, jaro_dist))
                 break               
         if found_duplicate == False:
             insort_left(names, name)
