@@ -1,247 +1,239 @@
-{"_index":"trade-companies","_type":"_doc","_id":"e75c5ededea8f7e6aab1ad3d562a90b5","_score":1,"_source":{"id":"e75c5ededea8f7e6aab1ad3d562a90b5","name":"Realsoul Holding S.A. (vormals Haron Holding AG)"}}
-{"_index":"trade-companies","_type":"_doc","_id":"9636aa936c2652c994eef693a5b5c467","_score":1,"_source":{"id":"9636aa936c2652c994eef693a5b5c467","name":"Haron Holding S.A."}}
-{"_index":"trade-companies","_type":"_doc","_id":"07b3c0781d4b1dc356da011ec95b3505","_score":1,"_source":{"id":"07b3c0781d4b1dc356da011ec95b3505","name":"SK Beteiligungen GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"fccbb11c19037d9366687968aeee3c73","_score":1,"_source":{"id":"fccbb11c19037d9366687968aeee3c73","name":"GCS Verwaltungs GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"6cf043c91e0e6eaa92c3c7c3a4a05df1","_score":1,"_source":{"id":"6cf043c91e0e6eaa92c3c7c3a4a05df1","name":"EFa Vermögensverwaltungs KG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"62b365543c0e75037b78ea765bf47fa7","_score":1,"_source":{"id":"62b365543c0e75037b78ea765bf47fa7","name":"ERWE Real Estate GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"bbe138219f42ceece6464688b325f063","_score":1,"_source":{"id":"bbe138219f42ceece6464688b325f063","name":"Krüper GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"df6553a4243b207ee9a1bb3d9fe6f155","_score":1,"_source":{"id":"df6553a4243b207ee9a1bb3d9fe6f155","name":"LMN Capital GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"1709ef0bfd9c14505e9f697991e830e8","_score":1,"_source":{"id":"1709ef0bfd9c14505e9f697991e830e8","name":"BluGreen Company Limited"}}
-{"_index":"trade-companies","_type":"_doc","_id":"14d897d4ed62a1f5a2130ed9c2bec9b3","_score":1,"_source":{"id":"14d897d4ed62a1f5a2130ed9c2bec9b3","name":"SL Invest Beteiligungs GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"11783e8c9899abf587c32efe20ef9785","_score":1,"_source":{"id":"11783e8c9899abf587c32efe20ef9785","name":"Sankt Leopold Privatstiftung"}}
-{"_index":"trade-companies","_type":"_doc","_id":"961033572f504d606e4baa4d99701481","_score":1,"_source":{"id":"961033572f504d606e4baa4d99701481","name":"Syntos-Beteiligungs GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"79b70bba00b92e10302c12123895731f","_score":1,"_source":{"id":"79b70bba00b92e10302c12123895731f","name":"Stapelfeld Beteiligungs GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"b9d29078674c0b12d49cee941ad3c8cc","_score":1,"_source":{"id":"b9d29078674c0b12d49cee941ad3c8cc","name":"VGHL Management GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"6ada68df2ff04a806f3d045e4c72b5e2","_score":1,"_source":{"id":"6ada68df2ff04a806f3d045e4c72b5e2","name":"RW Property Investment GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"e354d463e1051eed196a40b9df8b6f0b","_score":1,"_source":{"id":"e354d463e1051eed196a40b9df8b6f0b","name":"Thannhuber AG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"bae8de7b0186124e9bafadf57a9f9f8f","_score":1,"_source":{"id":"bae8de7b0186124e9bafadf57a9f9f8f","name":"Dr. Liedtke Vermögensverwaltung GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"d6d755b9ebd8897479b6ef1e6a42a1fc","_score":1,"_source":{"id":"d6d755b9ebd8897479b6ef1e6a42a1fc","name":"Kreke Immobilien KG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"33936badbddcaf805b8554942dd94fb4","_score":1,"_source":{"id":"33936badbddcaf805b8554942dd94fb4","name":"Lobelia Beteiligungs GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"abdff27f53a9dc9756477b4461085f15","_score":1,"_source":{"id":"abdff27f53a9dc9756477b4461085f15","name":"KA-INVEST GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"3b78c67f9a9a2f083a4be1294a1ccc6e","_score":1,"_source":{"id":"3b78c67f9a9a2f083a4be1294a1ccc6e","name":"AMCO Service GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"cc3f76a0ced82410aa9f06d565d044f6","_score":1,"_source":{"id":"cc3f76a0ced82410aa9f06d565d044f6","name":"MAMBO Vermögensverwaltung GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"d3426f93d2016ec62291758b69d150fb","_score":1,"_source":{"id":"d3426f93d2016ec62291758b69d150fb","name":"Lombardiello GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"7ff56a782b8362456826ddb6f59f9190","_score":1,"_source":{"id":"7ff56a782b8362456826ddb6f59f9190","name":"CM Center Management GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"3375c1ec2c2a4a79d3e2071faf612a6f","_score":1,"_source":{"id":"3375c1ec2c2a4a79d3e2071faf612a6f","name":"Carpio GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"cdef49a13a0ca909812766804e890924","_score":1,"_source":{"id":"cdef49a13a0ca909812766804e890924","name":"Dinar Capital GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"48f2d28b365dee46871f03a4e46ee3c8","_score":1,"_source":{"id":"48f2d28b365dee46871f03a4e46ee3c8","name":"RAT Asset & Trading GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"3b0238a513627e05b7ab61bde23dacf5","_score":1,"_source":{"id":"3b0238a513627e05b7ab61bde23dacf5","name":"4H invest GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"35cb4212da7a562a986de25ade48d4ce","_score":1,"_source":{"id":"35cb4212da7a562a986de25ade48d4ce","name":"Bohlini invest GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"657c8d68eba25249352945cc0885bbdc","_score":1,"_source":{"id":"657c8d68eba25249352945cc0885bbdc","name":"Aufrecht GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"f0aa73c14e782086925524d7e2bdaf43","_score":1,"_source":{"id":"f0aa73c14e782086925524d7e2bdaf43","name":"Dörflinger Management & Beteiligungs GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"03eb1536009daaee5cfd365dc34026ca","_score":1,"_source":{"id":"03eb1536009daaee5cfd365dc34026ca","name":"MH-LT-Investments GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"3a2dbc6a87fa23c9de15d7018b3c31fc","_score":1,"_source":{"id":"3a2dbc6a87fa23c9de15d7018b3c31fc","name":"CMB Beteiligungs KG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"05f51d5a89af16873f3968f4a341b32f","_score":1,"_source":{"id":"05f51d5a89af16873f3968f4a341b32f","name":"Spohn Cement Beteiligungen GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"9c7a855ab72da36ca84e4c1da754525b","_score":1,"_source":{"id":"9c7a855ab72da36ca84e4c1da754525b","name":"WASTA GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"3875a088549ba51a3ff88d118cf22b9d","_score":1,"_source":{"id":"3875a088549ba51a3ff88d118cf22b9d","name":"TWG Ventures GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"18fc051ec0902581db5327db3075dde0","_score":1,"_source":{"id":"18fc051ec0902581db5327db3075dde0","name":"HAMMONIA Reederei GmbH & Co. KG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"4138cafc9c46b968e46cfea8acffeb26","_score":1,"_source":{"id":"4138cafc9c46b968e46cfea8acffeb26","name":"Huber Health Care SE"}}
-{"_index":"trade-companies","_type":"_doc","_id":"e06cf35b7b89bbed7647074e69fcd99e","_score":1,"_source":{"id":"e06cf35b7b89bbed7647074e69fcd99e","name":"DSR Ventures GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"4c62192894f15e51bc68f665fd91a03f","_score":1,"_source":{"id":"4c62192894f15e51bc68f665fd91a03f","name":"AMCI GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"f75796fa95bb05ea38aac01fc9d870bc","_score":1,"_source":{"id":"f75796fa95bb05ea38aac01fc9d870bc","name":"Realsoul Holding S.A."}}
-{"_index":"trade-companies","_type":"_doc","_id":"5479ad14fdacf3b167179473b7070eba","_score":1,"_source":{"id":"5479ad14fdacf3b167179473b7070eba","name":"Beechtree Capital LLC"}}
-{"_index":"trade-companies","_type":"_doc","_id":"ddad8c58913bbdb24c4b457b879c92d5","_score":1,"_source":{"id":"ddad8c58913bbdb24c4b457b879c92d5","name":"Dr. Gottfried Greschner GmbH & Co. Vermögens-Verwaltungs KG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"5d076af81c460113dc77649722cbf80b","_score":1,"_source":{"id":"5d076af81c460113dc77649722cbf80b","name":"Gräf Holding GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"ed5e0099b24056291860f6b18a646fce","_score":1,"_source":{"id":"ed5e0099b24056291860f6b18a646fce","name":"Grace Beteiligungs GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"60a4a5e7d1aa308ea540ac3962b4a827","_score":1,"_source":{"id":"60a4a5e7d1aa308ea540ac3962b4a827","name":"Aragon Holding GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"30343284bb1108eaf4d21287db686078","_score":1,"_source":{"id":"30343284bb1108eaf4d21287db686078","name":"EICOM GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"85a02ac7a9933e2afa44f267beecd85d","_score":1,"_source":{"id":"85a02ac7a9933e2afa44f267beecd85d","name":"LJH-Holding GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"299d6e721484e1e6c699f99fa6bf8d35","_score":1,"_source":{"id":"299d6e721484e1e6c699f99fa6bf8d35","name":"Palatium Beteiligungsgesellschaft mbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"a38b4e807b83fa0d8e0bf4fed0c710ad","_score":1,"_source":{"id":"a38b4e807b83fa0d8e0bf4fed0c710ad","name":"Q-Soft Verwaltungs AG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"881990af473d8964802277165d559d4e","_score":1,"_source":{"id":"881990af473d8964802277165d559d4e","name":"Schawei GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"7d455855aa2b2a0001cbf0e0a6410b2d","_score":1,"_source":{"id":"7d455855aa2b2a0001cbf0e0a6410b2d","name":"Kromi Beteiligungsgesellschaft mbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"167ef3849906c90284286322ab034af3","_score":1,"_source":{"id":"167ef3849906c90284286322ab034af3","name":"Noorderhoofd B.V."}}
-{"_index":"trade-companies","_type":"_doc","_id":"8795e1df156a5e140f2dedc98e1bc844","_score":1,"_source":{"id":"8795e1df156a5e140f2dedc98e1bc844","name":"Engels Consulting & Investment GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"0be7b6e1c67be9e94f9ac83adaeb14f9","_score":1,"_source":{"id":"0be7b6e1c67be9e94f9ac83adaeb14f9","name":"UK Media Invest GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"09772e394861e1b8fd8d3ec0a1cebcaa","_score":1,"_source":{"id":"09772e394861e1b8fd8d3ec0a1cebcaa","name":"H.T.P. Investments 1 B.V."}}
-{"_index":"trade-companies","_type":"_doc","_id":"217c7894ca7117d223cd7137ce2f0abe","_score":1,"_source":{"id":"217c7894ca7117d223cd7137ce2f0abe","name":"Noorderhoofd N.V."}}
-{"_index":"trade-companies","_type":"_doc","_id":"530450f3de84742bc3c9814e3cf95fa3","_score":1,"_source":{"id":"530450f3de84742bc3c9814e3cf95fa3","name":"Consens Beratungs- und Beteiligungsgesellschaft mbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"fc4d2101f9512fa4202bd91fa81142ee","_score":1,"_source":{"id":"fc4d2101f9512fa4202bd91fa81142ee","name":"Plate Verwaltungs GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"0849a64e10256003ccc37425d5751d60","_score":1,"_source":{"id":"0849a64e10256003ccc37425d5751d60","name":"Plate & Cie. GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"93116bab016b60a5f7863ba686ef0da7","_score":1,"_source":{"id":"93116bab016b60a5f7863ba686ef0da7","name":"Maximilian GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"61ba5487d159bbd3bde447c8f099f4f6","_score":1,"_source":{"id":"61ba5487d159bbd3bde447c8f099f4f6","name":"Trade & Value AG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"53dfee1766ef6642c67b9c2068b9820a","_score":1,"_source":{"id":"53dfee1766ef6642c67b9c2068b9820a","name":"MS ProActive Verwaltungs GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"086501140c90321734c41d644a241c70","_score":1,"_source":{"id":"086501140c90321734c41d644a241c70","name":"ABACON CAPITAL GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"ae37938c6898ae3b0cf7de24117af648","_score":1,"_source":{"id":"ae37938c6898ae3b0cf7de24117af648","name":"PMB GmbH & Co. KG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"48d288612e7934bb9de8597f1d61fa25","_score":1,"_source":{"id":"48d288612e7934bb9de8597f1d61fa25","name":"Orpheus Capital II GmbH & Co. KG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"5ec1c6304c41fda5e1bd3fac9859d835","_score":1,"_source":{"id":"5ec1c6304c41fda5e1bd3fac9859d835","name":"LS Digital Management Services GmbH & Co. KG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"c42c401c7f979f1cee08c7c49eb2a974","_score":1,"_source":{"id":"c42c401c7f979f1cee08c7c49eb2a974","name":"Elbrock GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"0c4e6c81607577b48fce984ec49a31c2","_score":1,"_source":{"id":"0c4e6c81607577b48fce984ec49a31c2","name":"Tiburon Unternehmensaufbau GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"c9390c73491ee1b464ae2f830e92b138","_score":1,"_source":{"id":"c9390c73491ee1b464ae2f830e92b138","name":"ABACON Invest GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"4a9ebf52f357ea852bf9bdc0937fd287","_score":1,"_source":{"id":"4a9ebf52f357ea852bf9bdc0937fd287","name":"LUBANCO PTE LTD."}}
-{"_index":"trade-companies","_type":"_doc","_id":"5a7467ccbb0e786a89f9697cec07fb2a","_score":1,"_source":{"id":"5a7467ccbb0e786a89f9697cec07fb2a","name":"C&F Consulting EURL"}}
-{"_index":"trade-companies","_type":"_doc","_id":"057c582f0ea9cfdb6722d22c433cff2d","_score":1,"_source":{"id":"057c582f0ea9cfdb6722d22c433cff2d","name":"Mühl24 GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"68ce4c35f52f31374df93df822a56405","_score":1,"_source":{"id":"68ce4c35f52f31374df93df822a56405","name":"GMH Immobilien GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"2a9ebf00922c8e146ea12d41e422dd07","_score":1,"_source":{"id":"2a9ebf00922c8e146ea12d41e422dd07","name":"ELBER GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"4c2e5ff639573c2183f284db16571676","_score":1,"_source":{"id":"4c2e5ff639573c2183f284db16571676","name":"Murphy&Spitz Umwelt Consult GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"fde9b8ba2f846a539ff55f37cbc5b583","_score":1,"_source":{"id":"fde9b8ba2f846a539ff55f37cbc5b583","name":"Murphy Family Office GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"9bcb5b802f9db8a50187c60fba68e521","_score":1,"_source":{"id":"9bcb5b802f9db8a50187c60fba68e521","name":"MBB Capital Management GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"e7a945ea63e78bad53c3323778f5d89e","_score":1,"_source":{"id":"e7a945ea63e78bad53c3323778f5d89e","name":"SECURA Vermögensverwaltungs GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"9f7a3e763d8427f3a02155287080ce25","_score":1,"_source":{"id":"9f7a3e763d8427f3a02155287080ce25","name":"Bernd Luft Familien-Vermögensverwaltung GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"a011e5a8587c7e39056e51e2b47ef98e","_score":1,"_source":{"id":"a011e5a8587c7e39056e51e2b47ef98e","name":"Hammer Holding GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"75c543f372b45a8a7dbb86e68b9f63df","_score":1,"_source":{"id":"75c543f372b45a8a7dbb86e68b9f63df","name":"KD Investment & Consulting GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"b870df43454b35074f2620fe1f74a2f2","_score":1,"_source":{"id":"b870df43454b35074f2620fe1f74a2f2","name":"Innovogene GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"e95d6900d63731196973ee34bc3ca8d9","_score":1,"_source":{"id":"e95d6900d63731196973ee34bc3ca8d9","name":"Sickenberger Holding UG (haftungsbeschränkt)"}}
-{"_index":"trade-companies","_type":"_doc","_id":"5c0ce08633670c4cf5b0e1d42be2df38","_score":1,"_source":{"id":"5c0ce08633670c4cf5b0e1d42be2df38","name":"CHInvestProperty185 AG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"45632555904bdb380b52049a3187b7a1","_score":1,"_source":{"id":"45632555904bdb380b52049a3187b7a1","name":"Liebling Kronberg Capital GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"7b76f998d4b570295ecdf7ad400f768d","_score":1,"_source":{"id":"7b76f998d4b570295ecdf7ad400f768d","name":"Deichhorst Vermögensverwaltung GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"b2f90c0904ab7a2b67feb4243847949d","_score":1,"_source":{"id":"b2f90c0904ab7a2b67feb4243847949d","name":"Nemetschek Vermögensverwaltungs GmbH & Co. KG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"88a6147119f7bbfe4dc4a8969e50e55c","_score":1,"_source":{"id":"88a6147119f7bbfe4dc4a8969e50e55c","name":"All Nag Beteiligungs-GmbH & Co. KG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"5fc478a45fd3be15b4d2d3a9d13e681f","_score":1,"_source":{"id":"5fc478a45fd3be15b4d2d3a9d13e681f","name":"Hevella Capital GmbH & Co. KGaA"}}
-{"_index":"trade-companies","_type":"_doc","_id":"29c8cff0a97582cc040d61eb49ae3009","_score":1,"_source":{"id":"29c8cff0a97582cc040d61eb49ae3009","name":"Ventus Venture Fund GmbH & Co. Beteiligungs KG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"56761141ffe61fbd32b5447daa773b2d","_score":1,"_source":{"id":"56761141ffe61fbd32b5447daa773b2d","name":"momentum-capital Vermögensverwaltungsgesellschaft mbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"8d4b6f4f7d37ce95668de6cbd2393b80","_score":1,"_source":{"id":"8d4b6f4f7d37ce95668de6cbd2393b80","name":"Lantano Beteiligungen GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"683ae8bf379da61ac4c5021d72ccce43","_score":1,"_source":{"id":"683ae8bf379da61ac4c5021d72ccce43","name":"Hallmann Holding International Investment GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"42174fa2b69aa4c4c444031d60b81299","_score":1,"_source":{"id":"42174fa2b69aa4c4c444031d60b81299","name":"E.T.C. sarl"}}
-{"_index":"trade-companies","_type":"_doc","_id":"c342213657921c5e93859df85ff40971","_score":1,"_source":{"id":"c342213657921c5e93859df85ff40971","name":"Satherm GmbH Industriebedarf"}}
-{"_index":"trade-companies","_type":"_doc","_id":"d131434d0a5f5e9270639bfbfc1e06db","_score":1,"_source":{"id":"d131434d0a5f5e9270639bfbfc1e06db","name":"ALT & Kollegen Steuerberatungsgesellschaft mbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"298f5d4ce47c0504132fa6d292b8c697","_score":1,"_source":{"id":"298f5d4ce47c0504132fa6d292b8c697","name":"Dübbers Management & Consult GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"19c511b95674de6322dcccc629870b52","_score":1,"_source":{"id":"19c511b95674de6322dcccc629870b52","name":"SHH Spring Hunter Holdings GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"08c7e39ac04a484d10627ef0c4019a0a","_score":1,"_source":{"id":"08c7e39ac04a484d10627ef0c4019a0a","name":"Share Asset Management GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"4478bc58ce09a8ff976b9e42b43dd2af","_score":1,"_source":{"id":"4478bc58ce09a8ff976b9e42b43dd2af","name":"PanTerra Capital GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"42e8dc687eb7332f831c465ddd37a9a3","_score":1,"_source":{"id":"42e8dc687eb7332f831c465ddd37a9a3","name":"MVH Beteiligungs- und Beratungs-GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"fc6a95336e53d1106d80e83e00e9d05f","_score":1,"_source":{"id":"fc6a95336e53d1106d80e83e00e9d05f","name":"FUTRUE GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"3e8fa258570cb5e30662549aadcd37b8","_score":1,"_source":{"id":"3e8fa258570cb5e30662549aadcd37b8","name":"M2 Ventures GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"251b08272b643c0ff237211f18aabf80","_score":1,"_source":{"id":"251b08272b643c0ff237211f18aabf80","name":"BMK Holding GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"0c58f321056a3c90f8abec2e789ba501","_score":1,"_source":{"id":"0c58f321056a3c90f8abec2e789ba501","name":"M2 Venture GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"8e915219f6d8b27ed380dd2d99d7f773","_score":1,"_source":{"id":"8e915219f6d8b27ed380dd2d99d7f773","name":"Sulmana Vermögensverwaltung GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"30be344f162c19f377c60615a25e3d2f","_score":1,"_source":{"id":"30be344f162c19f377c60615a25e3d2f","name":"Ceresio GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"0c23a7de332f5d730a6f26c4220f3da6","_score":1,"_source":{"id":"0c23a7de332f5d730a6f26c4220f3da6","name":"Dr. Wimmer Verwaltungs GmbH & Co. KG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"045a48f79d7a128a4d4ee373bf9fb90e","_score":1,"_source":{"id":"045a48f79d7a128a4d4ee373bf9fb90e","name":"Ebsworth Vermögensverwaltungs Kommanditgesellschaft"}}
-{"_index":"trade-companies","_type":"_doc","_id":"e81801b74cf2f630f95087d01edcc68a","_score":1,"_source":{"id":"e81801b74cf2f630f95087d01edcc68a","name":"Ebsworth GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"a10a9e03fa95630ba3291fa4538abf7d","_score":1,"_source":{"id":"a10a9e03fa95630ba3291fa4538abf7d","name":"Ephios MEP VI GmbH & Co. KG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"b18a8fd2a55c1cb5c1d7ff9c1fa9ba76","_score":1,"_source":{"id":"b18a8fd2a55c1cb5c1d7ff9c1fa9ba76","name":"Rhodo capital & consulting GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"68eb929b0366a9ce863a080c02ff7d50","_score":1,"_source":{"id":"68eb929b0366a9ce863a080c02ff7d50","name":"Verus Group Management AG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"1fe6e93290dc65281be10b74bea10eeb","_score":1,"_source":{"id":"1fe6e93290dc65281be10b74bea10eeb","name":"Ephios MEP V GmbH & Co. KG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"fa35f0d40d43090bd3f5e2a6ece58e28","_score":1,"_source":{"id":"fa35f0d40d43090bd3f5e2a6ece58e28","name":"Zentaur Holding GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"63ab7144ea7f78100682460edaaba860","_score":1,"_source":{"id":"63ab7144ea7f78100682460edaaba860","name":"i3 Cologne Investors GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"0261fd1cda7dbda9cc526bb10885a4a1","_score":1,"_source":{"id":"0261fd1cda7dbda9cc526bb10885a4a1","name":"DNI Beteiligungen AG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"06e6c956e096c397c640d92794c22db4","_score":1,"_source":{"id":"06e6c956e096c397c640d92794c22db4","name":"Hasso Plattner Single Asset GmbH & Co. KG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"096cc94ab4d4b062b64f98ccddc863e8","_score":1,"_source":{"id":"096cc94ab4d4b062b64f98ccddc863e8","name":"Rhino Venture Capital UG (haftungsbeschraenkt)"}}
-{"_index":"trade-companies","_type":"_doc","_id":"ff5a37e2790135320b61edc549a5127c","_score":1,"_source":{"id":"ff5a37e2790135320b61edc549a5127c","name":"t-grove UG (haftungsbeschränkt)"}}
-{"_index":"trade-companies","_type":"_doc","_id":"74a71bc0f9b0dee2c9a3d28b18055030","_score":1,"_source":{"id":"74a71bc0f9b0dee2c9a3d28b18055030","name":"doinglean Ventures GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"ca9b367cb2269c6cbb9de209ecd60694","_score":1,"_source":{"id":"ca9b367cb2269c6cbb9de209ecd60694","name":"Elephant Lake Ventures GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"dd95ba5bc202bdea9839d65d531abc51","_score":1,"_source":{"id":"dd95ba5bc202bdea9839d65d531abc51","name":"Sabine Plattner GmbH & Co. Beteiligungs-KG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"14a51eab628f9b7a2161805e0baef550","_score":1,"_source":{"id":"14a51eab628f9b7a2161805e0baef550","name":"APMC-Familienstiftung"}}
-{"_index":"trade-companies","_type":"_doc","_id":"fa511ba8d2d1fa505786a4f0c4148a53","_score":1,"_source":{"id":"fa511ba8d2d1fa505786a4f0c4148a53","name":"Active Ownership Fund SICAV-FIS SCS"}}
-{"_index":"trade-companies","_type":"_doc","_id":"16985760ba076f51de323f393220fd8a","_score":1,"_source":{"id":"16985760ba076f51de323f393220fd8a","name":"RCM Beteiligungs AG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"0a0998d423348a28fe2418e7a356cbf5","_score":1,"_source":{"id":"0a0998d423348a28fe2418e7a356cbf5","name":"Stöckler Equity GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"c2c330b6501c903661568e05ed7c7e05","_score":1,"_source":{"id":"c2c330b6501c903661568e05ed7c7e05","name":"MMI Leisure & Capital Management GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"f101c5ad56d195987049bf8cd582a502","_score":1,"_source":{"id":"f101c5ad56d195987049bf8cd582a502","name":"Value Focus Beteiligungs GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"d1130851c86126676b13d9567dfbbef9","_score":1,"_source":{"id":"d1130851c86126676b13d9567dfbbef9","name":"Pierer Industrie AG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"b6d4b8e63968cce5848ceaf01a0d9729","_score":1,"_source":{"id":"b6d4b8e63968cce5848ceaf01a0d9729","name":"MuM Industriebeteiligungen Zwei UG (haftungsbeschränkt)"}}
-{"_index":"trade-companies","_type":"_doc","_id":"4da860cbfae75452293ff9feef25cc15","_score":1,"_source":{"id":"4da860cbfae75452293ff9feef25cc15","name":"GCI Management Consulting GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"4b2f615d363ff531affa139879eae707","_score":1,"_source":{"id":"4b2f615d363ff531affa139879eae707","name":"Severgroup Limited Liability Company"}}
-{"_index":"trade-companies","_type":"_doc","_id":"707f7d2df9362335c113e3213fddab0a","_score":1,"_source":{"id":"707f7d2df9362335c113e3213fddab0a","name":"FORTUNA Beteiligungsgesellschaft mbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"83845fee42d163e97e7dfdeec2a36221","_score":1,"_source":{"id":"83845fee42d163e97e7dfdeec2a36221","name":"Alstersilber Invest GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"3bc6b2208696f8e178473eb738a5e60b","_score":1,"_source":{"id":"3bc6b2208696f8e178473eb738a5e60b","name":"H.T.B. Unternehmensbeteiligungen GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"d0a6a16a0f3b9f72785bc58dde273dfe","_score":1,"_source":{"id":"d0a6a16a0f3b9f72785bc58dde273dfe","name":"DA CAPO Vermögensverwaltung GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"65f6a12702406cee20471e31353a4cf0","_score":1,"_source":{"id":"65f6a12702406cee20471e31353a4cf0","name":"Dornisch Research AG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"3cd285b7154bb80b451a9095c92df94c","_score":1,"_source":{"id":"3cd285b7154bb80b451a9095c92df94c","name":"Project Mill Gesellschaft für interdisziplinären Know-how-Transfer GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"cf2ad665290006aa787fc069a78303a8","_score":1,"_source":{"id":"cf2ad665290006aa787fc069a78303a8","name":"Limit 45 GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"8a25d6b8290c490cf08326f8a63eb999","_score":1,"_source":{"id":"8a25d6b8290c490cf08326f8a63eb999","name":"Gruppe Georg Kofler GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"a1792f8d980d9c6c2bda1f31526fba0f","_score":1,"_source":{"id":"a1792f8d980d9c6c2bda1f31526fba0f","name":"Dacapo S.á.r.l."}}
-{"_index":"trade-companies","_type":"_doc","_id":"4e202b4c8f7ddc0ba7716ca5713ad24a","_score":1,"_source":{"id":"4e202b4c8f7ddc0ba7716ca5713ad24a","name":"AJA Invest GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"9cc1845d0f40885ef4d4cedc7c4a7382","_score":1,"_source":{"id":"9cc1845d0f40885ef4d4cedc7c4a7382","name":"Rhein-Main Beteiligungsgesellschaft mbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"320b214cbd2d52acdc73ca5f80dfd2bd","_score":1,"_source":{"id":"320b214cbd2d52acdc73ca5f80dfd2bd","name":"AR Holding GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"beef89753aeb59785efcd4ae3548b01d","_score":1,"_source":{"id":"beef89753aeb59785efcd4ae3548b01d","name":"MARKTFLAGGE GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"63951f9b4517cfc3d4428550b8f65ef4","_score":1,"_source":{"id":"63951f9b4517cfc3d4428550b8f65ef4","name":"ZuHause Immobilien Handelsgesellschaft mbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"34b7c3146d6327b2998b30cf1dac8a92","_score":1,"_source":{"id":"34b7c3146d6327b2998b30cf1dac8a92","name":"Unifirm Limited"}}
-{"_index":"trade-companies","_type":"_doc","_id":"3162e7fb73c5d7a3b1b4822e35703b68","_score":1,"_source":{"id":"3162e7fb73c5d7a3b1b4822e35703b68","name":"Millennium Verwaltungs GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"901628089109f68a916e59dbd67f7f94","_score":1,"_source":{"id":"901628089109f68a916e59dbd67f7f94","name":"MUM Industriebeteiligungen GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"ffd0bd1f3ea47a0ed198e172693d15df","_score":1,"_source":{"id":"ffd0bd1f3ea47a0ed198e172693d15df","name":"WAOW entrepreneurship GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"633d7c4272486877276c5a18a90ff92d","_score":1,"_source":{"id":"633d7c4272486877276c5a18a90ff92d","name":"Limeswood Ltd."}}
-{"_index":"trade-companies","_type":"_doc","_id":"69dfab97c444380a8d7d2cdd659a9795","_score":1,"_source":{"id":"69dfab97c444380a8d7d2cdd659a9795","name":"Ralph Dommermuth GmbH & Co. KG Beteiligungsgesellschaft"}}
-{"_index":"trade-companies","_type":"_doc","_id":"923326aba738b2164f31f68adf12d9c1","_score":1,"_source":{"id":"923326aba738b2164f31f68adf12d9c1","name":"K.F.P. GmbH & Co. KG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"f36166baa32d47f559ac0bab2e1c58af","_score":1,"_source":{"id":"f36166baa32d47f559ac0bab2e1c58af","name":"LetKon UG ( Haftungsbeschränkt )"}}
-{"_index":"trade-companies","_type":"_doc","_id":"0242359b22b5397e8908d0e129e95b6b","_score":1,"_source":{"id":"0242359b22b5397e8908d0e129e95b6b","name":"PR Capital Vermögensverwaltung UG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"9ab88626f2122c499028e0050865714f","_score":1,"_source":{"id":"9ab88626f2122c499028e0050865714f","name":"Bredack Vermögensverwaltungsgesellschaft mbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"0c768c4d4b9e42b0cbe88b482466e099","_score":1,"_source":{"id":"0c768c4d4b9e42b0cbe88b482466e099","name":"PR Capital Vermögensverwaltungs UG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"51e86ee96335f032a0ecbd2c9f8415d4","_score":1,"_source":{"id":"51e86ee96335f032a0ecbd2c9f8415d4","name":"ASW Privatstiftung"}}
-{"_index":"trade-companies","_type":"_doc","_id":"b2e96a484145d9aada86862733cc9023","_score":1,"_source":{"id":"b2e96a484145d9aada86862733cc9023","name":"2CU Asset Management GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"847ac25338304147f72cb966c13afcb1","_score":1,"_source":{"id":"847ac25338304147f72cb966c13afcb1","name":"AOC Health GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"59455204c67350c3b4f933f1bb23b95e","_score":1,"_source":{"id":"59455204c67350c3b4f933f1bb23b95e","name":"VGG AG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"153d9cb37460b7d4911fc1f16876c7ab","_score":1,"_source":{"id":"153d9cb37460b7d4911fc1f16876c7ab","name":"Vita 34 AG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"2215fb7a0f7bfd7818c9a2c67a5a9bb1","_score":1,"_source":{"id":"2215fb7a0f7bfd7818c9a2c67a5a9bb1","name":"IHO Verwaltungs GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"c29046f6d2af2d5f4110a243d9cacdff","_score":1,"_source":{"id":"c29046f6d2af2d5f4110a243d9cacdff","name":"Continental Aktiengesellschaft"}}
-{"_index":"trade-companies","_type":"_doc","_id":"b35e5d2bbb3d485c65a95a7aa6817a86","_score":1,"_source":{"id":"b35e5d2bbb3d485c65a95a7aa6817a86","name":"VGG GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"8463126e85ed3b6714b97c4d38161620","_score":1,"_source":{"id":"8463126e85ed3b6714b97c4d38161620","name":"Systematic Value Investor GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"4250247da5a5b9c2513041c90b6ebe24","_score":1,"_source":{"id":"4250247da5a5b9c2513041c90b6ebe24","name":"JHS Invest GmbH & Co. KG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"b2203925ce00a178a6a7099b6c6dcf36","_score":1,"_source":{"id":"b2203925ce00a178a6a7099b6c6dcf36","name":"Matador Partners Group AG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"262a041a39737b72dd97895c77808da7","_score":1,"_source":{"id":"262a041a39737b72dd97895c77808da7","name":"ELF Partners Group AG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"bdb8428299725929d8bc9c55f156ded2","_score":1,"_source":{"id":"bdb8428299725929d8bc9c55f156ded2","name":"Röhl Capital GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"fec68d5bd75fd96a22b29d5f1c24577c","_score":1,"_source":{"id":"fec68d5bd75fd96a22b29d5f1c24577c","name":"Rüdiger K. Weng A+A GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"be09bedea0fa8b866501ea785f92eac9","_score":1,"_source":{"id":"be09bedea0fa8b866501ea785f92eac9","name":"Hauptstadt Mobile HM GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"cee1d2fb9c54a36d4670b504da23fb92","_score":1,"_source":{"id":"cee1d2fb9c54a36d4670b504da23fb92","name":"Orionta Holdings Limited"}}
-{"_index":"trade-companies","_type":"_doc","_id":"462176f7f67b3e04b3ae7b46ddcc8cf5","_score":1,"_source":{"id":"462176f7f67b3e04b3ae7b46ddcc8cf5","name":"AKD Private Equity GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"d0d1724dcc1b69a0df50f6f52c81885f","_score":1,"_source":{"id":"d0d1724dcc1b69a0df50f6f52c81885f","name":"F & M Film und Medien Beteiligungs GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"5abbe186b28d2af5a861b615fb808318","_score":1,"_source":{"id":"5abbe186b28d2af5a861b615fb808318","name":"Cassio I GmbH & Co. KG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"446cf21efa56efc19f7f5c9097e820d6","_score":1,"_source":{"id":"446cf21efa56efc19f7f5c9097e820d6","name":"MAX Automation SE"}}
-{"_index":"trade-companies","_type":"_doc","_id":"f710d26da481e17ef6ea10fc7abe0d05","_score":1,"_source":{"id":"f710d26da481e17ef6ea10fc7abe0d05","name":"Othello Drei Beteiligungs GmbH & Co. KG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"2b56aee7b7e3d5eef286e21025e70bcc","_score":1,"_source":{"id":"2b56aee7b7e3d5eef286e21025e70bcc","name":"Othello Vier Beteiligungs GmbH & Co. KG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"7719ba8079c63d28e0db49d4384a5807","_score":1,"_source":{"id":"7719ba8079c63d28e0db49d4384a5807","name":"Aurora GmbH & Co. KG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"8ddb482ff84b6453dc003da5455c772a","_score":1,"_source":{"id":"8ddb482ff84b6453dc003da5455c772a","name":"KF030332 GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"a33230e408377b1c745145760605e7af","_score":1,"_source":{"id":"a33230e408377b1c745145760605e7af","name":"Aktieselskabet af 1.2.2017"}}
-{"_index":"trade-companies","_type":"_doc","_id":"9d3e14bfa05567dabb8151a93d6a8f3f","_score":1,"_source":{"id":"9d3e14bfa05567dabb8151a93d6a8f3f","name":"Celeus GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"86e3a364bec377bcb61d4e070d0a8649","_score":1,"_source":{"id":"86e3a364bec377bcb61d4e070d0a8649","name":"La Plata GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"da6c95bd08a8fbe6230dd70e88c0f352","_score":1,"_source":{"id":"da6c95bd08a8fbe6230dd70e88c0f352","name":"Zeitfracht GmbH & Co. KGaA"}}
-{"_index":"trade-companies","_type":"_doc","_id":"8e60491cb875f81b5aaee6b4a0176f0f","_score":1,"_source":{"id":"8e60491cb875f81b5aaee6b4a0176f0f","name":"Verdere S.à r.l."}}
-{"_index":"trade-companies","_type":"_doc","_id":"fc4e1de7fc7a5f078b2d30fffdb431d6","_score":1,"_source":{"id":"fc4e1de7fc7a5f078b2d30fffdb431d6","name":"BM Digital GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"f9fa1ab2c7fd6a424b569eac7cb9dd8d","_score":1,"_source":{"id":"f9fa1ab2c7fd6a424b569eac7cb9dd8d","name":"MuM Industriebeteiligungen GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"ff87db73a35064214de097b07f5fb13f","_score":1,"_source":{"id":"ff87db73a35064214de097b07f5fb13f","name":"JFHI GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"d00c43686cd3607b3b56be2437300489","_score":1,"_source":{"id":"d00c43686cd3607b3b56be2437300489","name":"Fadelia GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"a32bf5749f1f70f9fd050cc116fdc06e","_score":1,"_source":{"id":"a32bf5749f1f70f9fd050cc116fdc06e","name":"Deutsche Effecten- und Wechsel-Beteiligungsgesellschaft AG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"8c8d0bd4f6f119543328bcdfdc5b03af","_score":1,"_source":{"id":"8c8d0bd4f6f119543328bcdfdc5b03af","name":"Merval AG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"9451452e83a5745ec8c56527f6b26637","_score":1,"_source":{"id":"9451452e83a5745ec8c56527f6b26637","name":"Deepblue Holding AG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"0bc4cc8b9d597b162905837089aa2d4f","_score":1,"_source":{"id":"0bc4cc8b9d597b162905837089aa2d4f","name":"VICUS GROUP AG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"9476d92414a20caa8f8a0eaa91a31481","_score":1,"_source":{"id":"9476d92414a20caa8f8a0eaa91a31481","name":"SMII GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"e84465f1ec9510110cad16ad66042623","_score":1,"_source":{"id":"e84465f1ec9510110cad16ad66042623","name":"P.A.C alpha GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"430224943cf436c107f52287d1ca1fa4","_score":1,"_source":{"id":"430224943cf436c107f52287d1ca1fa4","name":"EBG electro GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"0d6083a6e688f3d3340d041303bcea86","_score":1,"_source":{"id":"0d6083a6e688f3d3340d041303bcea86","name":"BTS Invest GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"659a38d401635a4e171741e1a00f9c6d","_score":1,"_source":{"id":"659a38d401635a4e171741e1a00f9c6d","name":"CMG Investment GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"135e3ed9f62809cf37df67ce3cdbb0d7","_score":1,"_source":{"id":"135e3ed9f62809cf37df67ce3cdbb0d7","name":"Elektro-Bauelemente Gesellschaft mit beschränkter Haftung"}}
-{"_index":"trade-companies","_type":"_doc","_id":"f9497fd24d5a236346bc64c04dba60da","_score":1,"_source":{"id":"f9497fd24d5a236346bc64c04dba60da","name":"DELAC Investment GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"7cf44e1ea6b68b45b365e49479941161","_score":1,"_source":{"id":"7cf44e1ea6b68b45b365e49479941161","name":"Chasmops GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"c197d84c4ccd8d3577d2d327d625e421","_score":1,"_source":{"id":"c197d84c4ccd8d3577d2d327d625e421","name":"Waterside GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"912de0fe563c53507411dd3270d6cd15","_score":1,"_source":{"id":"912de0fe563c53507411dd3270d6cd15","name":"DBR Investment GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"1d28ebe9e88bb8bfb2cd957bb270ccd7","_score":1,"_source":{"id":"1d28ebe9e88bb8bfb2cd957bb270ccd7","name":"BBJ Beteiligungsgesellschaft mbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"0157af459651bb30f0cf18c09b74220d","_score":1,"_source":{"id":"0157af459651bb30f0cf18c09b74220d","name":"INFINITUM LTD"}}
-{"_index":"trade-companies","_type":"_doc","_id":"c08d5ccae37a230b64b7e95cebc8dcfd","_score":1,"_source":{"id":"c08d5ccae37a230b64b7e95cebc8dcfd","name":"Bauerfeind Beteiligungsgesellschaft mbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"52556b52cb15dbf1518dd1c2c9e9e68d","_score":1,"_source":{"id":"52556b52cb15dbf1518dd1c2c9e9e68d","name":"Ralph Dommermuth Beteiligungen GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"ac7a6451911e7ce5f93b7353a927db93","_score":1,"_source":{"id":"ac7a6451911e7ce5f93b7353a927db93","name":"Sparta AG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"8d722a8b663a8b118df112a390a853b6","_score":1,"_source":{"id":"8d722a8b663a8b118df112a390a853b6","name":"Deutsche Balaton Aktiengesellschaft"}}
-{"_index":"trade-companies","_type":"_doc","_id":"83a2c842702890b334b60f17273aa4c7","_score":1,"_source":{"id":"83a2c842702890b334b60f17273aa4c7","name":"PAX Investments GmbH Entwicklung & Beteiligung"}}
-{"_index":"trade-companies","_type":"_doc","_id":"ed7c6479e1dadbd0a1c4aba07e6fc2b2","_score":1,"_source":{"id":"ed7c6479e1dadbd0a1c4aba07e6fc2b2","name":"MS Industrie AG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"7caade81e2ee62b819f5d8b891231525","_score":1,"_source":{"id":"7caade81e2ee62b819f5d8b891231525","name":"COB Grund GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"6dc3c2c3e99633bd5f02088b7b01a55d","_score":1,"_source":{"id":"6dc3c2c3e99633bd5f02088b7b01a55d","name":"Indigo Wealth LLC"}}
-{"_index":"trade-companies","_type":"_doc","_id":"40916bea9289e830802738b0dbd7354a","_score":1,"_source":{"id":"40916bea9289e830802738b0dbd7354a","name":"Convergenta Invest GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"5a4f4a4b26c3636487fc2eaf36322d73","_score":1,"_source":{"id":"5a4f4a4b26c3636487fc2eaf36322d73","name":"Obotritia Capital KGaA"}}
-{"_index":"trade-companies","_type":"_doc","_id":"553b7653653b28f623f9e0620d80f289","_score":1,"_source":{"id":"553b7653653b28f623f9e0620d80f289","name":"Qino JB Ltd."}}
-{"_index":"trade-companies","_type":"_doc","_id":"d96e7d9c2b633c2bb2f2c1544c3140c3","_score":1,"_source":{"id":"d96e7d9c2b633c2bb2f2c1544c3140c3","name":"RDF Familienstiftung"}}
-{"_index":"trade-companies","_type":"_doc","_id":"b2140e658ead024bd4693899960ed4fa","_score":1,"_source":{"id":"b2140e658ead024bd4693899960ed4fa","name":"RDF Familienstiftung & Co. KG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"ec3c82fafa06562acce0a3df59a8aa09","_score":1,"_source":{"id":"ec3c82fafa06562acce0a3df59a8aa09","name":"LDT GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"39c53afa96c92c7f0732de06711bb679","_score":1,"_source":{"id":"39c53afa96c92c7f0732de06711bb679","name":"Doblinger Beteiligung GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"d940508266a11db71ced7d0691ee5985","_score":1,"_source":{"id":"d940508266a11db71ced7d0691ee5985","name":"DGOC GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"da0ec1405156495464509913881debc2","_score":1,"_source":{"id":"da0ec1405156495464509913881debc2","name":"Höpen GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"87553cb2f3931f464d36b1e72773372b","_score":1,"_source":{"id":"87553cb2f3931f464d36b1e72773372b","name":"JOBECO Management GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"a236cc02dd0bb1ff7428dedc53f24c2f","_score":1,"_source":{"id":"a236cc02dd0bb1ff7428dedc53f24c2f","name":"RMU CAPITAL GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"4af91e15f84e14adfaf3ef2634d47cb6","_score":1,"_source":{"id":"4af91e15f84e14adfaf3ef2634d47cb6","name":"Wagner Beteiligungs GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"98d8df351223aeb13d827271fdaea1ff","_score":1,"_source":{"id":"98d8df351223aeb13d827271fdaea1ff","name":"EFa Vermögensverwaltung KG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"a1f066322304cf6301cbf4fa1d8c825a","_score":1,"_source":{"id":"a1f066322304cf6301cbf4fa1d8c825a","name":"audius AG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"1231b2b758cca371e6a6c9cd8fd3c325","_score":1,"_source":{"id":"1231b2b758cca371e6a6c9cd8fd3c325","name":"LOUCON Beteiligungsgesellschaft mbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"0a7e67c92d3a627ff92ca49798894318","_score":1,"_source":{"id":"0a7e67c92d3a627ff92ca49798894318","name":"Ulli Michel Beteiligungen UG (haftungsbeschränkt)"}}
-{"_index":"trade-companies","_type":"_doc","_id":"ecc3f2bbac18d70e4994635f3a9bb0da","_score":1,"_source":{"id":"ecc3f2bbac18d70e4994635f3a9bb0da","name":"UIAG AFO GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"97c0c98517ea5ad919a30f9b3738b811","_score":1,"_source":{"id":"97c0c98517ea5ad919a30f9b3738b811","name":"Unternehmens Invest AG"}}
-{"_index":"trade-companies","_type":"_doc","_id":"4fdc7640c21d93dd3254325b0becb411","_score":1,"_source":{"id":"4fdc7640c21d93dd3254325b0becb411","name":"Tarek Müller Beteiligungsgesellschaft mbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"8fb1587ee30ac8ff5e7d8283663e3166","_score":1,"_source":{"id":"8fb1587ee30ac8ff5e7d8283663e3166","name":"Sebastian Betz Beteiligungsgesellschaft mbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"da0b6ce07413d330d4c7d0aedb3e0fe7","_score":1,"_source":{"id":"da0b6ce07413d330d4c7d0aedb3e0fe7","name":"Hannes Wiese Beteiligungsgesellschaft mbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"547eeefc6548046a851057eee115b81d","_score":1,"_source":{"id":"547eeefc6548046a851057eee115b81d","name":"Lotus Aktiengesellschaft"}}
-{"_index":"trade-companies","_type":"_doc","_id":"056cd3893f32b658544fc35b9c3ba446","_score":1,"_source":{"id":"056cd3893f32b658544fc35b9c3ba446","name":"four two na GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"c648004c176385e9df021b23c65b7f3f","_score":1,"_source":{"id":"c648004c176385e9df021b23c65b7f3f","name":"Diok Capital GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"dd7d5fa8dde816d041b96344804bf2fb","_score":1,"_source":{"id":"dd7d5fa8dde816d041b96344804bf2fb","name":"TJ Capital Fund SICAF-RAIF"}}
-{"_index":"trade-companies","_type":"_doc","_id":"3adcce333e0593813d26075550812fd3","_score":1,"_source":{"id":"3adcce333e0593813d26075550812fd3","name":"Dr. Heinrich Dräger GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"d2b16a2fdf47471935462a66e0a3169a","_score":1,"_source":{"id":"d2b16a2fdf47471935462a66e0a3169a","name":"MSC Invest GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"4bd887c40e63ebd7875b5db8c9e6fc0d","_score":1,"_source":{"id":"4bd887c40e63ebd7875b5db8c9e6fc0d","name":"Günter Rothenberger Beteiligungen GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"634c5d3e39c4c90fdce77e17e0731bc8","_score":1,"_source":{"id":"634c5d3e39c4c90fdce77e17e0731bc8","name":"Midgard Beteiligungsgesellschaft mbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"0ad176a39aba2fa3ad74c74d7361119e","_score":1,"_source":{"id":"0ad176a39aba2fa3ad74c74d7361119e","name":"TTL Real Estate GmbH"}}
-{"_index":"trade-companies","_type":"_doc","_id":"ac8af59c196993a371840262395c1d75","_score":1,"_source":{"id":"ac8af59c196993a371840262395c1d75","name":"TJ Capital Fund SICAV-RAIF"}}
+{"_index":"trade-companies","_type":"_doc","_id":"26d340066745f5230fe15e3dcf559586","_score":1,"_source":{"id":"26d340066745f5230fe15e3dcf559586","name":"MAMBO Vermögensverwaltung GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"bfea4cd6c7b86e5a31b322bc2851e785","_score":1,"_source":{"id":"bfea4cd6c7b86e5a31b322bc2851e785","name":"Lombardiello GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"d0976ba027562d9aae949e1787aad873","_score":1,"_source":{"id":"d0976ba027562d9aae949e1787aad873","name":"CM Center Management GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"318a59b3093148e2433502e07dd364c0","_score":1,"_source":{"id":"318a59b3093148e2433502e07dd364c0","name":"RAT Asset & Trading GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"7a7fdf4f9adb093d6c1b2fd18ad6aae4","_score":1,"_source":{"id":"7a7fdf4f9adb093d6c1b2fd18ad6aae4","name":"Carpio GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"77a16e6d589081ea46f0b9abc273a11b","_score":1,"_source":{"id":"77a16e6d589081ea46f0b9abc273a11b","name":"Dinar Capital GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"6b3ebf08dd497be29b7ea5faaf3ced5e","_score":1,"_source":{"id":"6b3ebf08dd497be29b7ea5faaf3ced5e","name":"Gala Invest GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"5b019379a6ac1e79492927a7c1815057","_score":1,"_source":{"id":"5b019379a6ac1e79492927a7c1815057","name":"4H invest GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"8605c336391b9bcefe0fcaaa14453bdb","_score":1,"_source":{"id":"8605c336391b9bcefe0fcaaa14453bdb","name":"Bohlini invest GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"2e31ea7e8a0362a1025986ebdd568aff","_score":1,"_source":{"id":"2e31ea7e8a0362a1025986ebdd568aff","name":"Aufrecht GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"421a1c031ca21276d9e6be96f848bd95","_score":1,"_source":{"id":"421a1c031ca21276d9e6be96f848bd95","name":"Dörflinger Management & Beteiligungs GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"4a1cbe1aa7c38e180198f55cb67a44fc","_score":1,"_source":{"id":"4a1cbe1aa7c38e180198f55cb67a44fc","name":"DSR Ventures GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"f7ec266b688219034469d0fe38126ae3","_score":1,"_source":{"id":"f7ec266b688219034469d0fe38126ae3","name":"MH-LT-Investments GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"062642c70f930f5ebcb4f2f6def44387","_score":1,"_source":{"id":"062642c70f930f5ebcb4f2f6def44387","name":"CMB Beteiligungs KG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"14b0444274342fd8ca1c4155621226c2","_score":1,"_source":{"id":"14b0444274342fd8ca1c4155621226c2","name":"Spohn Cement Beteiligungen GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"6d80cd8a1dc37b1ff95e5ac374795a42","_score":1,"_source":{"id":"6d80cd8a1dc37b1ff95e5ac374795a42","name":"WASTA GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"f6f2fbfa18ee689d455b4645dc638194","_score":1,"_source":{"id":"f6f2fbfa18ee689d455b4645dc638194","name":"TWG Ventures GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"52dcd759df35ab736989976ac2227a52","_score":1,"_source":{"id":"52dcd759df35ab736989976ac2227a52","name":"HAMMONIA Reederei GmbH & Co. KG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"39b45cc5b3c830889bc0adf8c8e60ec4","_score":1,"_source":{"id":"39b45cc5b3c830889bc0adf8c8e60ec4","name":"Huber Health Care SE"}}
+{"_index":"trade-companies","_type":"_doc","_id":"676a7e167f29859230d326dc155d6703","_score":1,"_source":{"id":"676a7e167f29859230d326dc155d6703","name":"Gräf Holding GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"f74356927613b84fe9e2e133d837135c","_score":1,"_source":{"id":"f74356927613b84fe9e2e133d837135c","name":"AMCI GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"759f8c55ca9c086de73fbcd8b256518e","_score":1,"_source":{"id":"759f8c55ca9c086de73fbcd8b256518e","name":"Realsoul Holding S.A."}}
+{"_index":"trade-companies","_type":"_doc","_id":"27aaf03a9860ae9232e71207e88619a2","_score":1,"_source":{"id":"27aaf03a9860ae9232e71207e88619a2","name":"Beechtree Capital LLC"}}
+{"_index":"trade-companies","_type":"_doc","_id":"4b7668206cba0df984e6b716d24d09eb","_score":1,"_source":{"id":"4b7668206cba0df984e6b716d24d09eb","name":"Dr. Gottfried Greschner GmbH & Co. Vermögens-Verwaltungs KG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"d12de2e93fdaac4c72d6911daddb25d9","_score":1,"_source":{"id":"d12de2e93fdaac4c72d6911daddb25d9","name":"Grace Beteiligungs GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"8ec620764e74cf66b4105f4259e1ad69","_score":1,"_source":{"id":"8ec620764e74cf66b4105f4259e1ad69","name":"Aragon Holding GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"0372af48109a5bd3f9a955f4c2924579","_score":1,"_source":{"id":"0372af48109a5bd3f9a955f4c2924579","name":"EICOM GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"ed92ce7a13ac6e9ce4e9696d5a368edc","_score":1,"_source":{"id":"ed92ce7a13ac6e9ce4e9696d5a368edc","name":"LJH-Holding GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"540d707124d987f444dde3e67beebc7b","_score":1,"_source":{"id":"540d707124d987f444dde3e67beebc7b","name":"Georg Engels Spac 1 GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"3b668de6f825c3c68b7a6648ef94fc4a","_score":1,"_source":{"id":"3b668de6f825c3c68b7a6648ef94fc4a","name":"Palatium Beteiligungsgesellschaft mbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"645bc2d81b2fbd74b7c7fc389bdb7920","_score":1,"_source":{"id":"645bc2d81b2fbd74b7c7fc389bdb7920","name":"Q-Soft Verwaltungs AG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"eaf4f7495109a5fc1e21227efdb0dd35","_score":1,"_source":{"id":"eaf4f7495109a5fc1e21227efdb0dd35","name":"Schawei GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"ff8b9aa458014f47c3dfc934b48ebbfd","_score":1,"_source":{"id":"ff8b9aa458014f47c3dfc934b48ebbfd","name":"Kromi Beteiligungsgesellschaft mbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"914ae3dccf3d8a8aacb1f875e95a2017","_score":1,"_source":{"id":"914ae3dccf3d8a8aacb1f875e95a2017","name":"Noorderhoofd B.V."}}
+{"_index":"trade-companies","_type":"_doc","_id":"6592e66e35664e1b7de9f2affc52255a","_score":1,"_source":{"id":"6592e66e35664e1b7de9f2affc52255a","name":"Engels Consulting & Investment GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"87b7bd6048f371fd020dcc5923ed1b22","_score":1,"_source":{"id":"87b7bd6048f371fd020dcc5923ed1b22","name":"UK Media Invest GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"2726520c1a576f248ec9445332c4efab","_score":1,"_source":{"id":"2726520c1a576f248ec9445332c4efab","name":"Noorderhoofd N.V."}}
+{"_index":"trade-companies","_type":"_doc","_id":"757538d4324d22969da0fa945291cd73","_score":1,"_source":{"id":"757538d4324d22969da0fa945291cd73","name":"H.T.P. Investments 1 B.V."}}
+{"_index":"trade-companies","_type":"_doc","_id":"b988564a95663a60d4806cf479d1d8c4","_score":1,"_source":{"id":"b988564a95663a60d4806cf479d1d8c4","name":"Consens Beratungs- und Beteiligungsgesellschaft mbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"13c03d26288427e398819804598e68ac","_score":1,"_source":{"id":"13c03d26288427e398819804598e68ac","name":"Plate Verwaltungs GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"6c29ce2c7a64dec878982750e20d0661","_score":1,"_source":{"id":"6c29ce2c7a64dec878982750e20d0661","name":"Plate & Cie. GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"633105bf960343d68dbccd71bb7d8246","_score":1,"_source":{"id":"633105bf960343d68dbccd71bb7d8246","name":"Trade & Value AG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"a080adb73527087dddb17024d87001ad","_score":1,"_source":{"id":"a080adb73527087dddb17024d87001ad","name":"Maximilian GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"2ba880ded38e29002f0e0f806c5de95b","_score":1,"_source":{"id":"2ba880ded38e29002f0e0f806c5de95b","name":"MS ProActive Verwaltungs GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"a1bd16bae9e139beaa029c3d6b1cb182","_score":1,"_source":{"id":"a1bd16bae9e139beaa029c3d6b1cb182","name":"ABACON CAPITAL GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"1939ab6380861bb5f5bc5abf3e8123ea","_score":1,"_source":{"id":"1939ab6380861bb5f5bc5abf3e8123ea","name":"PMB GmbH & Co. KG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"edc4cc4fa21b125bd24cabde0fce640b","_score":1,"_source":{"id":"edc4cc4fa21b125bd24cabde0fce640b","name":"Orpheus Capital II GmbH & Co. KG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"81ee8e884febf0540ecce6deb2aba986","_score":1,"_source":{"id":"81ee8e884febf0540ecce6deb2aba986","name":"LS Digital Management Services GmbH & Co. KG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"73a6e99deafc6cd49de3c9b5fedc9f73","_score":1,"_source":{"id":"73a6e99deafc6cd49de3c9b5fedc9f73","name":"Elbrock GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"1dd17ae7b29d54ed00956a33e16320c2","_score":1,"_source":{"id":"1dd17ae7b29d54ed00956a33e16320c2","name":"Tiburon Unternehmensaufbau GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"787102675d5782e9ff43b7a11b6a8cd2","_score":1,"_source":{"id":"787102675d5782e9ff43b7a11b6a8cd2","name":"SECURA Vermögensverwaltungs GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"df26269f1cc28062d1128170f7fd3b74","_score":1,"_source":{"id":"df26269f1cc28062d1128170f7fd3b74","name":"ABACON Invest GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"1fa9e62a528eb128159964a6a39fbaed","_score":1,"_source":{"id":"1fa9e62a528eb128159964a6a39fbaed","name":"LUBANCO PTE LTD."}}
+{"_index":"trade-companies","_type":"_doc","_id":"9291dd759d5312b810b9e2fbe2b357e0","_score":1,"_source":{"id":"9291dd759d5312b810b9e2fbe2b357e0","name":"C&F Consulting EURL"}}
+{"_index":"trade-companies","_type":"_doc","_id":"fb326e4d8f43a7e97105b82c68fca01b","_score":1,"_source":{"id":"fb326e4d8f43a7e97105b82c68fca01b","name":"Mühl24 GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"083e1ef1b75ab0b8fef11de95f4250cb","_score":1,"_source":{"id":"083e1ef1b75ab0b8fef11de95f4250cb","name":"GMH Immobilien GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"5bd57abd228334c5d58850181839a926","_score":1,"_source":{"id":"5bd57abd228334c5d58850181839a926","name":"ELBER GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"94e4ba6b7465a8022d271776fba1e490","_score":1,"_source":{"id":"94e4ba6b7465a8022d271776fba1e490","name":"Murphy&Spitz Umwelt Consult GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"30fa4054e7b1191ce3075ee36841eca1","_score":1,"_source":{"id":"30fa4054e7b1191ce3075ee36841eca1","name":"Murphy Family Office GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"82a25bd01bf9fd7c4fab67126c49d4e3","_score":1,"_source":{"id":"82a25bd01bf9fd7c4fab67126c49d4e3","name":"MBB Capital Management GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"8fb3db77ff86f476c0e5aa5e599fd067","_score":1,"_source":{"id":"8fb3db77ff86f476c0e5aa5e599fd067","name":"Robert Käß Beratungs GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"e9adea5a076f81d4b35a28d487cb6317","_score":1,"_source":{"id":"e9adea5a076f81d4b35a28d487cb6317","name":"Bernd Luft Familien-Vermögensverwaltung GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"165233fe61d7c42ecf3fe65b857eadb5","_score":1,"_source":{"id":"165233fe61d7c42ecf3fe65b857eadb5","name":"Hammer Holding GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"2410f02b1eb2c72eb2623b48723b914e","_score":1,"_source":{"id":"2410f02b1eb2c72eb2623b48723b914e","name":"Innovogene GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"7cc3f6b4bdf80d654c181aade0a2bf12","_score":1,"_source":{"id":"7cc3f6b4bdf80d654c181aade0a2bf12","name":"CHInvestProperty185 AG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"19f9ec9c68ebb5e0688f23cf75fa8b47","_score":1,"_source":{"id":"19f9ec9c68ebb5e0688f23cf75fa8b47","name":"Liebling Kronberg Capital GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"3e475a670d838dbd2187a2bf38eeb3fe","_score":1,"_source":{"id":"3e475a670d838dbd2187a2bf38eeb3fe","name":"Sickenberger Holding UG (haftungsbeschränkt)"}}
+{"_index":"trade-companies","_type":"_doc","_id":"19cd44dbfa028d677b927d78b820ad03","_score":1,"_source":{"id":"19cd44dbfa028d677b927d78b820ad03","name":"Deichhorst Vermögensverwaltung GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"f68e2411921336a5d29a8afe4962a707","_score":1,"_source":{"id":"f68e2411921336a5d29a8afe4962a707","name":"Nemetschek Vermögensverwaltungs GmbH & Co. KG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"7b458a06cee25176c8263cd35c493c3a","_score":1,"_source":{"id":"7b458a06cee25176c8263cd35c493c3a","name":"All Nag Beteiligungs-GmbH & Co. KG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"616fb27e007d6470b94b404aaf9ecdf3","_score":1,"_source":{"id":"616fb27e007d6470b94b404aaf9ecdf3","name":"Hevella Capital GmbH & Co. KGaA"}}
+{"_index":"trade-companies","_type":"_doc","_id":"f1a674a45c5973577cdf00283caa4d84","_score":1,"_source":{"id":"f1a674a45c5973577cdf00283caa4d84","name":"Lantano Beteiligungen GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"a3603daafdbde53baa807e04954fa885","_score":1,"_source":{"id":"a3603daafdbde53baa807e04954fa885","name":"momentum-capital Vermögensverwaltungsgesellschaft mbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"db8a458e2e4c648957ab339e0d17cf3b","_score":1,"_source":{"id":"db8a458e2e4c648957ab339e0d17cf3b","name":"Ventus Venture Fund GmbH & Co. Beteiligungs KG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"307387bb7ebffa28cbe54a6ec5838406","_score":1,"_source":{"id":"307387bb7ebffa28cbe54a6ec5838406","name":"Hallmann Holding International Investment GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"9e1c530ed611661c72f8033f9d0653f5","_score":1,"_source":{"id":"9e1c530ed611661c72f8033f9d0653f5","name":"E.T.C. sarl"}}
+{"_index":"trade-companies","_type":"_doc","_id":"468eb7839e6c70615f09b9c967be5a32","_score":1,"_source":{"id":"468eb7839e6c70615f09b9c967be5a32","name":"Satherm GmbH Industriebedarf"}}
+{"_index":"trade-companies","_type":"_doc","_id":"190634bea54fcd5041adde443e1d2930","_score":1,"_source":{"id":"190634bea54fcd5041adde443e1d2930","name":"ALT & Kollegen Steuerberatungsgesellschaft mbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"1d5d703641744af055a868771d46b902","_score":1,"_source":{"id":"1d5d703641744af055a868771d46b902","name":"Dübbers Management & Consult GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"c3c8cba98f32a1b75b6809214600e8fe","_score":1,"_source":{"id":"c3c8cba98f32a1b75b6809214600e8fe","name":"SHH Spring Hunter Holdings GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"027d9b9359be7c056c293c6a1daee385","_score":1,"_source":{"id":"027d9b9359be7c056c293c6a1daee385","name":"Share Asset Management GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"f4afb5115169b9469b56a6ddf6c5c2c1","_score":1,"_source":{"id":"f4afb5115169b9469b56a6ddf6c5c2c1","name":"MVH Beteiligungs- und Beratungs-GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"f502e178d5a060cb9a1f3c41408fb610","_score":1,"_source":{"id":"f502e178d5a060cb9a1f3c41408fb610","name":"FUTRUE GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"bfb4d51de1a8b6fafd6b51df6f80ac6c","_score":1,"_source":{"id":"bfb4d51de1a8b6fafd6b51df6f80ac6c","name":"PanTerra Capital GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"9ab58db4d884959f425a09495e6b26ae","_score":1,"_source":{"id":"9ab58db4d884959f425a09495e6b26ae","name":"M2 Ventures GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"8e830738717750c8c53673e62c6e100c","_score":1,"_source":{"id":"8e830738717750c8c53673e62c6e100c","name":"BMK Holding GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"75e0b0ad1cd6c97f2edeb0d460fe4e51","_score":1,"_source":{"id":"75e0b0ad1cd6c97f2edeb0d460fe4e51","name":"Sulmana Vermögensverwaltung GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"bc56d0686413fd2d2a76ead7f89afcdf","_score":1,"_source":{"id":"bc56d0686413fd2d2a76ead7f89afcdf","name":"M2 Venture GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"fdf7a6c0c04dbd87e5d9e9d7f0785308","_score":1,"_source":{"id":"fdf7a6c0c04dbd87e5d9e9d7f0785308","name":"Sachs Assets GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"92c9f1474f1845fc622bf3e624629311","_score":1,"_source":{"id":"92c9f1474f1845fc622bf3e624629311","name":"Ceresio GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"4dddea8ab2e5d5898915cb84e8cecb85","_score":1,"_source":{"id":"4dddea8ab2e5d5898915cb84e8cecb85","name":"Dr. Wimmer Verwaltungs GmbH & Co. KG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"98f30ce24cf8e0ade3731497319804a8","_score":1,"_source":{"id":"98f30ce24cf8e0ade3731497319804a8","name":"Ebsworth Vermögensverwaltungs Kommanditgesellschaft"}}
+{"_index":"trade-companies","_type":"_doc","_id":"6e912191c00aa2aff1bc2a9db8cfc191","_score":1,"_source":{"id":"6e912191c00aa2aff1bc2a9db8cfc191","name":"Ebsworth GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"c1f0bd811742f6710f0699c1d016aa03","_score":1,"_source":{"id":"c1f0bd811742f6710f0699c1d016aa03","name":"Ephios MEP VI GmbH & Co. KG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"19c58f1372c45a64347068fc941b9a97","_score":1,"_source":{"id":"19c58f1372c45a64347068fc941b9a97","name":"Rhodo capital & consulting GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"f6951ec663391ab2badf8e93034c1b77","_score":1,"_source":{"id":"f6951ec663391ab2badf8e93034c1b77","name":"Verus Group Management AG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"4bc2978e84e8b920df806371e549dc99","_score":1,"_source":{"id":"4bc2978e84e8b920df806371e549dc99","name":"Ephios MEP V GmbH & Co. KG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"e16479b90fefe98aae3d6d0224164731","_score":1,"_source":{"id":"e16479b90fefe98aae3d6d0224164731","name":"Zentaur Holding GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"84f47ad43d6a3840c8bff253d2378512","_score":1,"_source":{"id":"84f47ad43d6a3840c8bff253d2378512","name":"i3 Cologne Investors GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"c51c4cc506dd85117103bc92ecc94701","_score":1,"_source":{"id":"c51c4cc506dd85117103bc92ecc94701","name":"DNI Beteiligungen AG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"ee47c1bb4876e523b933a08ac62d6301","_score":1,"_source":{"id":"ee47c1bb4876e523b933a08ac62d6301","name":"Hasso Plattner Single Asset GmbH & Co. KG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"ddfb1a2b0c76c31ac94cf17c5ea98d31","_score":1,"_source":{"id":"ddfb1a2b0c76c31ac94cf17c5ea98d31","name":"Rhino Venture Capital UG (haftungsbeschraenkt)"}}
+{"_index":"trade-companies","_type":"_doc","_id":"9167495e0dc79cbadf55bf5057f2e6ad","_score":1,"_source":{"id":"9167495e0dc79cbadf55bf5057f2e6ad","name":"doinglean Ventures GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"07879bc5b984440ec89c7feac22531f0","_score":1,"_source":{"id":"07879bc5b984440ec89c7feac22531f0","name":"Elephant Lake Ventures GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"d6d0c531e8dbda39b2d247d79ab47593","_score":1,"_source":{"id":"d6d0c531e8dbda39b2d247d79ab47593","name":"t-grove UG (haftungsbeschränkt)"}}
+{"_index":"trade-companies","_type":"_doc","_id":"26327c2070cc23574f945460e038d084","_score":1,"_source":{"id":"26327c2070cc23574f945460e038d084","name":"Sabine Plattner GmbH & Co. Beteiligungs-KG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"87121b6eba8923762b270f1b92e3f177","_score":1,"_source":{"id":"87121b6eba8923762b270f1b92e3f177","name":"APMC-Familienstiftung"}}
+{"_index":"trade-companies","_type":"_doc","_id":"99f47116504ac954435a199745d3e42e","_score":1,"_source":{"id":"99f47116504ac954435a199745d3e42e","name":"Active Ownership Fund SICAV-FIS SCS"}}
+{"_index":"trade-companies","_type":"_doc","_id":"93f795c719ed51451bd29749450daea9","_score":1,"_source":{"id":"93f795c719ed51451bd29749450daea9","name":"RCM Beteiligungs AG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"0fb4b26e54b3707ee8740e1a92f6e621","_score":1,"_source":{"id":"0fb4b26e54b3707ee8740e1a92f6e621","name":"Stöckler Equity GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"32774d88d13337e50d4da44b905477b8","_score":1,"_source":{"id":"32774d88d13337e50d4da44b905477b8","name":"MMI Leisure & Capital Management GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"58167ab5a5c9008a30b018ed86d412d8","_score":1,"_source":{"id":"58167ab5a5c9008a30b018ed86d412d8","name":"Value Focus Beteiligungs GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"dd7edee5a51f30988895cc881b5b7045","_score":1,"_source":{"id":"dd7edee5a51f30988895cc881b5b7045","name":"Pierer Industrie AG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"5023c5d7e6f8b5ceca598c1cf3841a7d","_score":1,"_source":{"id":"5023c5d7e6f8b5ceca598c1cf3841a7d","name":"MuM Industriebeteiligungen Zwei UG (haftungsbeschränkt)"}}
+{"_index":"trade-companies","_type":"_doc","_id":"d42d35cc3d2eeeae30a4ab369e068c86","_score":1,"_source":{"id":"d42d35cc3d2eeeae30a4ab369e068c86","name":"GCI Management Consulting GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"0c76122f9b848a89ba3cbe730b1d1825","_score":1,"_source":{"id":"0c76122f9b848a89ba3cbe730b1d1825","name":"Severgroup Limited Liability Company"}}
+{"_index":"trade-companies","_type":"_doc","_id":"703ea6ebe0a3ca65d24cf1de219a1dd3","_score":1,"_source":{"id":"703ea6ebe0a3ca65d24cf1de219a1dd3","name":"FORTUNA Beteiligungsgesellschaft mbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"1f3f30dd4d662b6a36e4c12e30f81fc8","_score":1,"_source":{"id":"1f3f30dd4d662b6a36e4c12e30f81fc8","name":"Alstersilber Invest GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"d3dd47ec32f7b63f22a682de522a06f9","_score":1,"_source":{"id":"d3dd47ec32f7b63f22a682de522a06f9","name":"H.T.B. Unternehmensbeteiligungen GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"22780fdbfb333861ac663d641a7cb650","_score":1,"_source":{"id":"22780fdbfb333861ac663d641a7cb650","name":"DA CAPO Vermögensverwaltung GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"b36926b701fa0b06b290f41b8df28d2d","_score":1,"_source":{"id":"b36926b701fa0b06b290f41b8df28d2d","name":"WAOW entrepreneurship GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"51aa813b0fdb7fb4ec1b47cc9215ed11","_score":1,"_source":{"id":"51aa813b0fdb7fb4ec1b47cc9215ed11","name":"Dornisch Research AG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"d5ce44f8846569839ed2c648d15b0979","_score":1,"_source":{"id":"d5ce44f8846569839ed2c648d15b0979","name":"Project Mill Gesellschaft für interdisziplinären Know-how-Transfer GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"679053d36e564b432c6b55e68a980a5d","_score":1,"_source":{"id":"679053d36e564b432c6b55e68a980a5d","name":"Limit 45 GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"4c491dbb8a3c44d88b3c8cea8b9d47e9","_score":1,"_source":{"id":"4c491dbb8a3c44d88b3c8cea8b9d47e9","name":"Gruppe Georg Kofler GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"fc03d712069e0c8247037b528b3cf085","_score":1,"_source":{"id":"fc03d712069e0c8247037b528b3cf085","name":"Dacapo S.á.r.l."}}
+{"_index":"trade-companies","_type":"_doc","_id":"05fe4d77389d03ee4fc8b81b3640407a","_score":1,"_source":{"id":"05fe4d77389d03ee4fc8b81b3640407a","name":"Unifirm Limited"}}
+{"_index":"trade-companies","_type":"_doc","_id":"df3085e4b70804de72d4237f09bb7500","_score":1,"_source":{"id":"df3085e4b70804de72d4237f09bb7500","name":"AJA Invest GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"7778ca5dd8e20ceb09b05c8f5aa8043f","_score":1,"_source":{"id":"7778ca5dd8e20ceb09b05c8f5aa8043f","name":"Rhein-Main Beteiligungsgesellschaft mbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"87c8ca726ceff01e0adc0c0f5ea1c49a","_score":1,"_source":{"id":"87c8ca726ceff01e0adc0c0f5ea1c49a","name":"AR Holding GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"c5097a015a5f8c0acd9c0e21ce02058d","_score":1,"_source":{"id":"c5097a015a5f8c0acd9c0e21ce02058d","name":"MARKTFLAGGE GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"19ec9245ef80eab4b9470c030414f190","_score":1,"_source":{"id":"19ec9245ef80eab4b9470c030414f190","name":"ZuHause Immobilien Handelsgesellschaft mbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"9d5313ccc9956edad0f94cfe6455c14b","_score":1,"_source":{"id":"9d5313ccc9956edad0f94cfe6455c14b","name":"Ralph Dommermuth GmbH & Co. KG Beteiligungsgesellschaft"}}
+{"_index":"trade-companies","_type":"_doc","_id":"1759bd93bae7418c50a121aeeb60ee68","_score":1,"_source":{"id":"1759bd93bae7418c50a121aeeb60ee68","name":"KD Investment & Consulting GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"3625203f9bcd23031ebc5da1910dc02c","_score":1,"_source":{"id":"3625203f9bcd23031ebc5da1910dc02c","name":"RAIWIND & CO. S.R.L."}}
+{"_index":"trade-companies","_type":"_doc","_id":"2ae480bec445ee551510cdd0960cf682","_score":1,"_source":{"id":"2ae480bec445ee551510cdd0960cf682","name":"LetKon UG ( Haftungsbeschränkt )"}}
+{"_index":"trade-companies","_type":"_doc","_id":"b605f733b92308123085aa748da2f3d8","_score":1,"_source":{"id":"b605f733b92308123085aa748da2f3d8","name":"PR Capital Vermögensverwaltung UG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"3fb3a63a2c03853cde1a841981561fe0","_score":1,"_source":{"id":"3fb3a63a2c03853cde1a841981561fe0","name":"Bredack Vermögensverwaltungsgesellschaft mbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"a5c7e9351514a3a1b512b04e0ee203b0","_score":1,"_source":{"id":"a5c7e9351514a3a1b512b04e0ee203b0","name":"PR Capital Vermögensverwaltungs UG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"be7b75e9851265f43739fd0487b8150f","_score":1,"_source":{"id":"be7b75e9851265f43739fd0487b8150f","name":"2CU Asset Management GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"65b6c2271f0aaf23e68e2ae1a70ca818","_score":1,"_source":{"id":"65b6c2271f0aaf23e68e2ae1a70ca818","name":"ASW Privatstiftung"}}
+{"_index":"trade-companies","_type":"_doc","_id":"5428c6e784c0b45de40e98a616059edb","_score":1,"_source":{"id":"5428c6e784c0b45de40e98a616059edb","name":"AOC Health GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"da313670a1a5a936533a2fdaea616be6","_score":1,"_source":{"id":"da313670a1a5a936533a2fdaea616be6","name":"VGG AG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"b9e0b4553d011344642428341abb5aa3","_score":1,"_source":{"id":"b9e0b4553d011344642428341abb5aa3","name":"Vita 34 AG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"efd578e840882fb28725be652f9a370e","_score":1,"_source":{"id":"efd578e840882fb28725be652f9a370e","name":"IHO Verwaltungs GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"c203799ea74dbd30452f8ea5aa49ae82","_score":1,"_source":{"id":"c203799ea74dbd30452f8ea5aa49ae82","name":"Continental Aktiengesellschaft"}}
+{"_index":"trade-companies","_type":"_doc","_id":"8fd6b07a3f450400025ae8f253656318","_score":1,"_source":{"id":"8fd6b07a3f450400025ae8f253656318","name":"VGG GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"5c3cdaca47e01b5c7c961d87cbc5778f","_score":1,"_source":{"id":"5c3cdaca47e01b5c7c961d87cbc5778f","name":"Systematic Value Investor GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"00f342c4b8df5b64f751eb3b4e839110","_score":1,"_source":{"id":"00f342c4b8df5b64f751eb3b4e839110","name":"JHS Invest GmbH & Co. KG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"ec6e53d09cee5ddb5f4cfac1d307fbc7","_score":1,"_source":{"id":"ec6e53d09cee5ddb5f4cfac1d307fbc7","name":"Matador Partners Group AG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"2d17927f6d1a7acb656e49a6defeaa35","_score":1,"_source":{"id":"2d17927f6d1a7acb656e49a6defeaa35","name":"ELF Partners Group AG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"b5324d15ccb5cd7d3e262b6b9226e468","_score":1,"_source":{"id":"b5324d15ccb5cd7d3e262b6b9226e468","name":"AKD Private Equity GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"fab5a3f6c84722ee1b2405718c9f569c","_score":1,"_source":{"id":"fab5a3f6c84722ee1b2405718c9f569c","name":"Röhl Capital GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"3edb6162afa7b0280bb81c12013ffd64","_score":1,"_source":{"id":"3edb6162afa7b0280bb81c12013ffd64","name":"Rüdiger K. Weng A+A GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"f60602f00b8e525e615661d374cc5d17","_score":1,"_source":{"id":"f60602f00b8e525e615661d374cc5d17","name":"Hauptstadt Mobile HM GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"92ddf2773614ab7956d117bdfdb137d6","_score":1,"_source":{"id":"92ddf2773614ab7956d117bdfdb137d6","name":"Orionta Holdings Limited"}}
+{"_index":"trade-companies","_type":"_doc","_id":"5b319c9a42f011b804bbc559b22ef860","_score":1,"_source":{"id":"5b319c9a42f011b804bbc559b22ef860","name":"F & M Film und Medien Beteiligungs GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"85e1503849370dffe35415393035398a","_score":1,"_source":{"id":"85e1503849370dffe35415393035398a","name":"Cassio I GmbH & Co. KG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"f4e80b2a39de454fd62221b8e96d2a7f","_score":1,"_source":{"id":"f4e80b2a39de454fd62221b8e96d2a7f","name":"MAX Automation SE"}}
+{"_index":"trade-companies","_type":"_doc","_id":"31eae424a70d0ee8dd4261a6c36ff854","_score":1,"_source":{"id":"31eae424a70d0ee8dd4261a6c36ff854","name":"Othello Drei Beteiligungs GmbH & Co. KG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"f386621b5ac7c644c7394b3f9486e702","_score":1,"_source":{"id":"f386621b5ac7c644c7394b3f9486e702","name":"Othello Vier Beteiligungs GmbH & Co. KG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"b28e18a6356b608059e8089748e4947b","_score":1,"_source":{"id":"b28e18a6356b608059e8089748e4947b","name":"Aurora GmbH & Co. KG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"ff462152e6f28d8c8de9c2da32504db8","_score":1,"_source":{"id":"ff462152e6f28d8c8de9c2da32504db8","name":"KF030332 GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"2f0333f4c808982fc22c3e67d52ee6fc","_score":1,"_source":{"id":"2f0333f4c808982fc22c3e67d52ee6fc","name":"Aktieselskabet af 1.2.2017"}}
+{"_index":"trade-companies","_type":"_doc","_id":"93f8218b5f3cc27f0680c8ce6b813417","_score":1,"_source":{"id":"93f8218b5f3cc27f0680c8ce6b813417","name":"Celeus GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"40738ba651c25c738ddbd38812cf9403","_score":1,"_source":{"id":"40738ba651c25c738ddbd38812cf9403","name":"La Plata GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"2c7061b6507f194ad02371235b01eee8","_score":1,"_source":{"id":"2c7061b6507f194ad02371235b01eee8","name":"Zeitfracht GmbH & Co. KGaA"}}
+{"_index":"trade-companies","_type":"_doc","_id":"8c044b0704944843b1b002d3005cf28c","_score":1,"_source":{"id":"8c044b0704944843b1b002d3005cf28c","name":"BM Digital GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"8043ba8039fb1a3aeabad62287d993d0","_score":1,"_source":{"id":"8043ba8039fb1a3aeabad62287d993d0","name":"MuM Industriebeteiligungen GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"c1ef2169bcb2df19f040b136eedbb28a","_score":1,"_source":{"id":"c1ef2169bcb2df19f040b136eedbb28a","name":"JFHI GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"2b29afa36757156b034762872c73e9b2","_score":1,"_source":{"id":"2b29afa36757156b034762872c73e9b2","name":"Fadelia GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"dc38fabe7aac0df639310ba790547672","_score":1,"_source":{"id":"dc38fabe7aac0df639310ba790547672","name":"Deutsche Effecten- und Wechsel-Beteiligungsgesellschaft AG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"1508c07459dadf2a9efaa6fc02415f95","_score":1,"_source":{"id":"1508c07459dadf2a9efaa6fc02415f95","name":"Merval AG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"1fafead1b8198bb238dbcdc280269c4b","_score":1,"_source":{"id":"1fafead1b8198bb238dbcdc280269c4b","name":"Deepblue Holding AG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"2b99a5d4c538df1a29dfbdd5c34e36bf","_score":1,"_source":{"id":"2b99a5d4c538df1a29dfbdd5c34e36bf","name":"VICUS GROUP AG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"65504361690b58c9eadd330d0844c43c","_score":1,"_source":{"id":"65504361690b58c9eadd330d0844c43c","name":"SMII GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"2943c936e598ca77cd2290e93d829b7d","_score":1,"_source":{"id":"2943c936e598ca77cd2290e93d829b7d","name":"P.A.C alpha GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"11db256e22786e8ee731d8c672459133","_score":1,"_source":{"id":"11db256e22786e8ee731d8c672459133","name":"Chasmops GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"f632aff3414e3ab3f595dc776fb49546","_score":1,"_source":{"id":"f632aff3414e3ab3f595dc776fb49546","name":"Waterside GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"baff070a9784dd87001026fb3e0db39c","_score":1,"_source":{"id":"baff070a9784dd87001026fb3e0db39c","name":"DBR Investment GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"ddbdfe62420a0590b4e8ecb9653631b4","_score":1,"_source":{"id":"ddbdfe62420a0590b4e8ecb9653631b4","name":"BBJ Beteiligungsgesellschaft mbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"791082d41da63072703f362db04c3ad4","_score":1,"_source":{"id":"791082d41da63072703f362db04c3ad4","name":"INFINITUM LTD"}}
+{"_index":"trade-companies","_type":"_doc","_id":"363071778b6ee4b2938b487f01ad6309","_score":1,"_source":{"id":"363071778b6ee4b2938b487f01ad6309","name":"Bauerfeind Beteiligungsgesellschaft mbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"e2f3525289eee378945a1034d3dbb5d4","_score":1,"_source":{"id":"e2f3525289eee378945a1034d3dbb5d4","name":"LDT GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"a6102be4fb3fff5a0c7ecc152a75955c","_score":1,"_source":{"id":"a6102be4fb3fff5a0c7ecc152a75955c","name":"Qino JB Ltd."}}
+{"_index":"trade-companies","_type":"_doc","_id":"d99c27260baeaa4ed5115a4173b8a4bb","_score":1,"_source":{"id":"d99c27260baeaa4ed5115a4173b8a4bb","name":"RDF Familienstiftung"}}
+{"_index":"trade-companies","_type":"_doc","_id":"8d99446006323cb860527a25302e0dff","_score":1,"_source":{"id":"8d99446006323cb860527a25302e0dff","name":"Convergenta Invest GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"248cfbc9f0f9974adca481a5c4002d9b","_score":1,"_source":{"id":"248cfbc9f0f9974adca481a5c4002d9b","name":"Obotritia Capital KGaA"}}
+{"_index":"trade-companies","_type":"_doc","_id":"28e955c978d94163b48d62a757ef5d72","_score":1,"_source":{"id":"28e955c978d94163b48d62a757ef5d72","name":"Ulli Michel Beteiligungen UG (haftungsbeschränkt)"}}
+{"_index":"trade-companies","_type":"_doc","_id":"9d3a2cffbd676956a67f46c5a0ba4c4f","_score":1,"_source":{"id":"9d3a2cffbd676956a67f46c5a0ba4c4f","name":"GFI Gesellschaft für Informationswissenschaft GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"1ff5ffed5a7baa58dc62510f3d507633","_score":1,"_source":{"id":"1ff5ffed5a7baa58dc62510f3d507633","name":"Galerie Neuendorf AG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"9ace4213d209a0a672f9d8ee9ca47134","_score":1,"_source":{"id":"9ace4213d209a0a672f9d8ee9ca47134","name":"RDF Familienstiftung & Co. KG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"2fc55f034dc25baad9249b47b42aecb0","_score":1,"_source":{"id":"2fc55f034dc25baad9249b47b42aecb0","name":"Ralph Dommermuth Beteiligungen GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"33dfb6f3a970795ee360bb2d1d90e11b","_score":1,"_source":{"id":"33dfb6f3a970795ee360bb2d1d90e11b","name":"Sparta AG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"edd67a14cab791310ddfd565ee1b5787","_score":1,"_source":{"id":"edd67a14cab791310ddfd565ee1b5787","name":"Deutsche Balaton Aktiengesellschaft"}}
+{"_index":"trade-companies","_type":"_doc","_id":"7f382ae04d3e271e17f0c3fcab507ac9","_score":1,"_source":{"id":"7f382ae04d3e271e17f0c3fcab507ac9","name":"PAX Investments GmbH Entwicklung & Beteiligung"}}
+{"_index":"trade-companies","_type":"_doc","_id":"c08684f08514d78dda64d952f730af5c","_score":1,"_source":{"id":"c08684f08514d78dda64d952f730af5c","name":"MS Industrie AG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"4154f09de889df09d88d45bdfd6b8556","_score":1,"_source":{"id":"4154f09de889df09d88d45bdfd6b8556","name":"COB Grund GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"e4adb7803cce933858b5f0420e6e5a2a","_score":1,"_source":{"id":"e4adb7803cce933858b5f0420e6e5a2a","name":"Indigo Wealth LLC"}}
+{"_index":"trade-companies","_type":"_doc","_id":"02ab1423388fcb6a2d81b1c22d9e0de0","_score":1,"_source":{"id":"02ab1423388fcb6a2d81b1c22d9e0de0","name":"GT 1 Vermögensverwaltung GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"fd4f0c3f20ef11766c4b77cb41e71d9a","_score":1,"_source":{"id":"fd4f0c3f20ef11766c4b77cb41e71d9a","name":"audius AG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"e8c0c29c5a6d3a5d7679248a47c6399c","_score":1,"_source":{"id":"e8c0c29c5a6d3a5d7679248a47c6399c","name":"Stapelfeld Beteiligungs GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"591d200f9271cd09f8d490f9db07fcc0","_score":1,"_source":{"id":"591d200f9271cd09f8d490f9db07fcc0","name":"VGHL Management GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"6443047b18b44e90da659ea557654af1","_score":1,"_source":{"id":"6443047b18b44e90da659ea557654af1","name":"RW Property Investment GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"9905c1cf061f332171073818ee38ec7d","_score":1,"_source":{"id":"9905c1cf061f332171073818ee38ec7d","name":"KA-INVEST GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"6fc6169b64f68ba544325492d402dd0a","_score":1,"_source":{"id":"6fc6169b64f68ba544325492d402dd0a","name":"Dr. Liedtke Vermögensverwaltung GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"ac206d94921306bfd1ca739a6b4d624b","_score":1,"_source":{"id":"ac206d94921306bfd1ca739a6b4d624b","name":"Kreke Immobilien KG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"788a10430b99875601101096871fd130","_score":1,"_source":{"id":"788a10430b99875601101096871fd130","name":"Lobelia Beteiligungs GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"6359b8a7a87e4e34f916d4e3cfa66137","_score":1,"_source":{"id":"6359b8a7a87e4e34f916d4e3cfa66137","name":"AMCO Service GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"8801a19c9a2ec4407f5d5c32e9d9adbd","_score":1,"_source":{"id":"8801a19c9a2ec4407f5d5c32e9d9adbd","name":"EBG electro GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"36bb542a8d8bbda20e34df4fed8de51b","_score":1,"_source":{"id":"36bb542a8d8bbda20e34df4fed8de51b","name":"BTS Invest GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"1aefe0651ab7606c451594a31e4a6d41","_score":1,"_source":{"id":"1aefe0651ab7606c451594a31e4a6d41","name":"CMG Investment GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"66645d12fc520329d5ea21c45f8b0257","_score":1,"_source":{"id":"66645d12fc520329d5ea21c45f8b0257","name":"Elektro-Bauelemente Gesellschaft mit beschränkter Haftung"}}
+{"_index":"trade-companies","_type":"_doc","_id":"2252b636bf7c22ca94b86967b9a641f5","_score":1,"_source":{"id":"2252b636bf7c22ca94b86967b9a641f5","name":"DELAC Investment GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"f90aa2ea2f7d896e3d9a49bfe9c193b7","_score":1,"_source":{"id":"f90aa2ea2f7d896e3d9a49bfe9c193b7","name":"MSC Invest GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"25878d4d6ef5a4c80935706f0011de68","_score":1,"_source":{"id":"25878d4d6ef5a4c80935706f0011de68","name":"Günter Rothenberger Beteiligungen GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"81c11b13074a7ef94495b9f7a8b68113","_score":1,"_source":{"id":"81c11b13074a7ef94495b9f7a8b68113","name":"Midgard Beteiligungsgesellschaft mbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"d5215c4f0e95c5a7ff362bf657aa1790","_score":1,"_source":{"id":"d5215c4f0e95c5a7ff362bf657aa1790","name":"EFa Vermögensverwaltungs KG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"890251a0b7120ed618107fb8be558f3c","_score":1,"_source":{"id":"890251a0b7120ed618107fb8be558f3c","name":"TTL Real Estate GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"59c630823fd1e26f63a74e63d5d16fa8","_score":1,"_source":{"id":"59c630823fd1e26f63a74e63d5d16fa8","name":"SK Beteiligungen GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"d68f6620b8f76560479a6dc766adc97d","_score":1,"_source":{"id":"d68f6620b8f76560479a6dc766adc97d","name":"TJ Capital Fund SICAV-RAIF"}}
+{"_index":"trade-companies","_type":"_doc","_id":"6ccf1685954c8d4c2c3a50c99f633628","_score":1,"_source":{"id":"6ccf1685954c8d4c2c3a50c99f633628","name":"Realsoul Holding S.A. (vormals Haron Holding AG)"}}
+{"_index":"trade-companies","_type":"_doc","_id":"e9e5cc0be8d8054ad96d018508a25433","_score":1,"_source":{"id":"e9e5cc0be8d8054ad96d018508a25433","name":"Haron Holding S.A."}}
+{"_index":"trade-companies","_type":"_doc","_id":"4f67689e890340f4c4da3a463f83df4b","_score":1,"_source":{"id":"4f67689e890340f4c4da3a463f83df4b","name":"TJ Capital Fund SICAF-RAIF"}}
+{"_index":"trade-companies","_type":"_doc","_id":"6fda47d58a35e2dc232c2ee0bce2adf5","_score":1,"_source":{"id":"6fda47d58a35e2dc232c2ee0bce2adf5","name":"Dr. Heinrich Dräger GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"dec1c9d51bce3cc1d802584d786133d7","_score":1,"_source":{"id":"dec1c9d51bce3cc1d802584d786133d7","name":"DGOC GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"f2f814c3519b20c26a6ad1809e398c6f","_score":1,"_source":{"id":"f2f814c3519b20c26a6ad1809e398c6f","name":"Höpen GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"126c4b442463e0f54ba7299dc121e41c","_score":1,"_source":{"id":"126c4b442463e0f54ba7299dc121e41c","name":"JOBECO Management GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"f99add14d2ac202deaf167af0441db33","_score":1,"_source":{"id":"f99add14d2ac202deaf167af0441db33","name":"RMU CAPITAL GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"195d35df81cf8c17300171def1f9c3f6","_score":1,"_source":{"id":"195d35df81cf8c17300171def1f9c3f6","name":"Wagner Beteiligungs GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"55864d4f5e835dded8d42f91d5dc573a","_score":1,"_source":{"id":"55864d4f5e835dded8d42f91d5dc573a","name":"Diok Capital GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"c3c230f84544ce0c50332d951688218d","_score":1,"_source":{"id":"c3c230f84544ce0c50332d951688218d","name":"Krüper GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"bcc0c98794fcff99637ee3577825271b","_score":1,"_source":{"id":"bcc0c98794fcff99637ee3577825271b","name":"LMN Capital GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"073662f228c92d257ba015b707a3ebf8","_score":1,"_source":{"id":"073662f228c92d257ba015b707a3ebf8","name":"BluGreen Company Limited"}}
+{"_index":"trade-companies","_type":"_doc","_id":"94849a53f5629ee4f7e84d259a588cb6","_score":1,"_source":{"id":"94849a53f5629ee4f7e84d259a588cb6","name":"SL Invest Beteiligungs GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"d14d065ec08d9787ef0d94fab16912b8","_score":1,"_source":{"id":"d14d065ec08d9787ef0d94fab16912b8","name":"Sankt Leopold Privatstiftung"}}
+{"_index":"trade-companies","_type":"_doc","_id":"f31032aba5307a7023c94dd7d9ad29f0","_score":1,"_source":{"id":"f31032aba5307a7023c94dd7d9ad29f0","name":"Syntos-Beteiligungs GmbH"}}
+{"_index":"trade-companies","_type":"_doc","_id":"39292febd7f93487100ba4fa03b6464f","_score":1,"_source":{"id":"39292febd7f93487100ba4fa03b6464f","name":"Thannhuber AG"}}
+{"_index":"trade-companies","_type":"_doc","_id":"2374eeae9725287cb15ec82db8ded56c","_score":1,"_source":{"id":"2374eeae9725287cb15ec82db8ded56c","name":"ERWE Real Estate GmbH"}}
