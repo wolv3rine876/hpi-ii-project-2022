@@ -126,9 +126,31 @@ Options:
   --help             Show this message and exit.
 ```
 
+### Dedup
+
+You can start the deduplication with the commands below:
+
+```shell
+poetry run python dedup/main.py --topic_type corporates
+```
+```shell
+poetry run python dedup/main.py --topic_type persons
+```
+
+You can use the `--help` option to see the usage:
+
+```
+Usage: main.py [OPTIONS]
+
+Options:
+  --topic_type TEXT  Enter the topic you want to run the deduplication on.
+  --help             Show this message and exit.
+```
+
 ### Architecture
 
 The Architecture of the Trades crawler is the same as the RB Crawler excluding the schema. Thus, it is composed of a extractor that queries our source and a producer that communicates with Kafka. The Schema can be found in proto/bakdata/trade/v1/trade.proto.
+Furthermore, the dedup component subscribes to all person and corporate topics and tries to filter out duplicates by introducing a dedup_id.
 
 ## Query data
 
@@ -163,6 +185,14 @@ curl -X GET "localhost:9200/_search?pretty" -H 'Content-Type: application/json' 
 
 ```
 "isin":"DE000ZAL1111"
+```
+
+```
+"name":"rollmann"
+```
+
+```
+"dedup_id" : "eadd6f2ba826df2cb5f3da0a71ee302a"
 ```
 
 ## Teardown

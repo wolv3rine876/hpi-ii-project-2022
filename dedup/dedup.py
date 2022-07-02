@@ -69,9 +69,9 @@ class Dedup:
                     dedup_person.dedup_id = hash(self.names[i])
                     self.rb_person_producer.produce(dedup_person, dedup_person.id)
                     if jaro_dist == 1.0:
-                        print("Found exact duplicate for person from trades-persons: {} - {} -> JW: {}".format(self.names[i], name, jaro_dist))
+                        print("Found exact duplicate for person from rb-persons: {} - {} -> JW: {}".format(self.names[i], name, jaro_dist))
                     else:
-                        print("[!] Found fuzzy duplicate for person from trades-persons: {} - {} -> JW: {}".format(self.names[i], name, jaro_dist))
+                        print("[!] Found fuzzy duplicate for person from rb-persons: {} - {} -> JW: {}".format(self.names[i], name, jaro_dist))
                     break 
             #duplicate not found -> produce to topic with dedup_id = hash(own name)             
             if found_duplicate == False:

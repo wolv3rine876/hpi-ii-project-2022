@@ -1,0 +1,18 @@
+{
+    "name": "elasticsearch-sink-corporates",
+    "config": {
+      "connector.class": "io.confluent.connect.elasticsearch.ElasticsearchSinkConnector",
+      "topics": "rb-corporates,trade-corporations,dedup-corporates",
+      "input.data.format": "PROTOBUF",
+      "connection.url": "http://elasticsearch:9200",
+      "write.method": "UPSERT",
+      "key.ignore": "false",
+      "schema.ignore": "true",
+      "transforms": "renameTopics",
+      "transforms.renameTopics.regex": ".*-corporates",
+      "transforms.renameTopics.replacement": "corporates",
+      "transforms.renameTopics.type": "org.apache.kafka.connect.transforms.RegexRouter",
+      "tasks.max": "1"
+    }
+  }
+  
