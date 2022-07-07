@@ -2,7 +2,7 @@
     "name": "elasticsearch-sink-corporates",
     "config": {
       "connector.class": "io.confluent.connect.elasticsearch.ElasticsearchSinkConnector",
-      "topics": "rb-corporates,trade-corporations,dedup-corporates",
+      "topics": "rb-corporates,trade-corporates,dedup-corporates",
       "input.data.format": "PROTOBUF",
       "connection.url": "http://elasticsearch:9200",
       "write.method": "UPSERT",
