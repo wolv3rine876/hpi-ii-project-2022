@@ -195,6 +195,13 @@ curl -X GET "localhost:9200/_search?pretty" -H 'Content-Type: application/json' 
 "dedup_id" : "eadd6f2ba826df2cb5f3da0a71ee302a"
 ```
 
+### Kibana
+
+To analyze and visualize the data, you can use [Kibana](https://www.elastic.co/de/kibana/).
+It automatically started with docker-compose and connected to elasticsearch. Just go to http://localhost:5601 (make sure to put the correct ip here if it is running on a different host e.g. WSL2)!
+Create an index for the documents in elastic you want to analyze. After that you can configure a custom dashboard with different types of diagramms.
+![](dashboard.png)
+
 ## Teardown
 You can stop and remove all the resources by running:
 ```shell
