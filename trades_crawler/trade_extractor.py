@@ -48,6 +48,7 @@ class TradeExtractor:
                     corporation.bafin_id = row["BaFin-ID"]
                     corporation.isin = row["ISIN"]
                     trade.issuerid = corporation.id
+                    trade.issuer_name = corporation.name
                     trade.position = row["Position / Status"]
                     trade.asset_type = row["Art des Instruments"]
                     trade.trade_type = row["Art des Geschäfts"]

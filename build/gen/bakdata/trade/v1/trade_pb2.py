@@ -19,7 +19,7 @@ DESCRIPTOR = _descriptor.FileDescriptor(
   package='bakdata.trade.v1',
   syntax='proto3',
   serialized_options=None,
-  serialized_pb=_b('\n\x1c\x62\x61kdata/trade/v1/trade.proto\x12\x10\x62\x61kdata.trade.v1\"\xd9\x02\n\x05Trade\x12\n\n\x02id\x18\x01 \x01(\t\x12\x10\n\x08personid\x18\x02 \x01(\t\x12\x10\n\x08issuerid\x18\x03 \x01(\t\x12\x11\n\tcompanyid\x18\x04 \x01(\t\x12\x10\n\x08position\x18\x05 \x01(\t\x12\x12\n\nasset_type\x18\x06 \x01(\t\x12\x12\n\ntrade_type\x18\x07 \x01(\t\x12\x11\n\tavg_price\x18\x08 \x01(\x01\x12\x1a\n\x12\x61vg_price_currency\x18\t \x01(\t\x12\x18\n\x10\x61ggregate_volume\x18\n \x01(\x01\x12!\n\x19\x61ggregate_volume_currency\x18\x0b \x01(\t\x12\x1c\n\x14\x64\x61te_of_notification\x18\x0c \x01(\t\x12\x15\n\rdate_of_trade\x18\r \x01(\t\x12\x16\n\x0eplace_of_trade\x18\x0e \x01(\t\x12\x1a\n\x12\x64\x61te_of_activation\x18\x0f \x01(\tb\x06proto3')
+  serialized_pb=_b('\n\x1c\x62\x61kdata/trade/v1/trade.proto\x12\x10\x62\x61kdata.trade.v1\"\xee\x02\n\x05Trade\x12\n\n\x02id\x18\x01 \x01(\t\x12\x10\n\x08personid\x18\x02 \x01(\t\x12\x10\n\x08issuerid\x18\x03 \x01(\t\x12\x11\n\tcompanyid\x18\x04 \x01(\t\x12\x10\n\x08position\x18\x05 \x01(\t\x12\x12\n\nasset_type\x18\x06 \x01(\t\x12\x12\n\ntrade_type\x18\x07 \x01(\t\x12\x11\n\tavg_price\x18\x08 \x01(\x01\x12\x1a\n\x12\x61vg_price_currency\x18\t \x01(\t\x12\x18\n\x10\x61ggregate_volume\x18\n \x01(\x01\x12!\n\x19\x61ggregate_volume_currency\x18\x0b \x01(\t\x12\x1c\n\x14\x64\x61te_of_notification\x18\x0c \x01(\t\x12\x15\n\rdate_of_trade\x18\r \x01(\t\x12\x16\n\x0eplace_of_trade\x18\x0e \x01(\t\x12\x1a\n\x12\x64\x61te_of_activation\x18\x0f \x01(\t\x12\x13\n\x0bissuer_name\x18\x10 \x01(\tb\x06proto3')
 )
 
 
@@ -137,6 +137,13 @@ _TRADE = _descriptor.Descriptor(
       message_type=None, enum_type=None, containing_type=None,
       is_extension=False, extension_scope=None,
       serialized_options=None, file=DESCRIPTOR),
+    _descriptor.FieldDescriptor(
+      name='issuer_name', full_name='bakdata.trade.v1.Trade.issuer_name', index=15,
+      number=16, type=9, cpp_type=9, label=1,
+      has_default_value=False, default_value=_b("").decode('utf-8'),
+      message_type=None, enum_type=None, containing_type=None,
+      is_extension=False, extension_scope=None,
+      serialized_options=None, file=DESCRIPTOR),
   ],
   extensions=[
   ],
@@ -150,7 +157,7 @@ _TRADE = _descriptor.Descriptor(
   oneofs=[
   ],
   serialized_start=51,
-  serialized_end=396,
+  serialized_end=417,
 )
 
 DESCRIPTOR.message_types_by_name['Trade'] = _TRADE
